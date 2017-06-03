@@ -37,7 +37,7 @@ public class Pyramid extends GraphicsProgram {
 			
 			 x = i * BRICK_WIDTH;
 			
-			GRect Rect = new GRect(x, 170, 30, 12);
+			GRect Rect = new GRect(150, 170, 30, 12);
 			
 			add(Rect);
 			
