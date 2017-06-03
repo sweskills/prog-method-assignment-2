@@ -18,10 +18,10 @@ public class PythagoreanTheorem extends ConsoleProgram {
 	
 	int b = readInt("Enter b");
 	
-	double c;
+	//double c = ;
 
 		
-		c = Math.sqrt((a*a) + (b*b));
+		double c = Math.sqrt((a*a) + (b*b));
 		
 		System.out.println("The ansa is " +c);
 		/* You fill this in */
