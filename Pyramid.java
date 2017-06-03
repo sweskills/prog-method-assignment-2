@@ -30,10 +30,16 @@ public class Pyramid extends GraphicsProgram {
 		int totalrect = getWidth() / BRICK_WIDTH;
 		
 		int WIDTHOFBASE = getWidth();
+				
+		int HEIGHT = getHeight();
+		
+		int y = 0;
 		
 		int x = 0;
 		
 		for (int i= 0; i<WIDTHOFBASE; i++) {
+			
+			y = HEIGHT / 2;
 			
 			x = WIDTHOFBASE / 2;
 			
