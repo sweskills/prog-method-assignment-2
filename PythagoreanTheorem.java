@@ -19,6 +19,8 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		//
 		double a1 = Math.pow(a,2);
 		double b1 = Math.pow(b,2);
+		
+		//
 		double c1 = Math.sqrt (a1 + b1);
 		
 
