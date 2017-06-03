@@ -8,7 +8,7 @@
 
 import acm.program.*;
 
-public class PythagoreanTheorem extends ConsoleProgram {
+public class PythagoreanTheorem extends DialogProgram {
 	public void run() {
 		
 		//
