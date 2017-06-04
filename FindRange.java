@@ -20,12 +20,12 @@ public class FindRange extends ConsoleProgram {
 		int value = readInt(" ? ");
 		while (value != SENTINEL) {
 			Math.min(value, value);
-			Math.max(large, value);
+			Math.max(value, value);
 			value = readInt(" ? ");
 		}
 		
-		println("smallest: " + value);
-		println("largest: " + value);
+		println("smallest: " + small);
+		println("largest: " + large);
 		
 		
 	}
