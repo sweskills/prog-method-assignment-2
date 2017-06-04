@@ -19,6 +19,7 @@ public class Target extends GraphicsProgram {
 		double y = (getHeight() - 21.6) / 2;
 		
 		GOval innercircle = new GOval(x, y, 21.6, 21.6);
+		
 		innercircle.setFillColor(Color.RED);
 		
 		add(innercircle);
@@ -36,9 +37,10 @@ public class Target extends GraphicsProgram {
 		double b = (getHeight() - 72) / 2;
 		
 		GOval outtercircle = new GOval(a, b, 72, 72);
+		
 		outtercircle.setFillColor(Color.RED);
 		
-		
+		add(outtercircle);
 		
 		
 		
