@@ -34,7 +34,7 @@ public class Target extends GraphicsProgram {
 		GOval midcircle = new GOval(i, j, 46.8, 46.8);
 		
 		midcircle.setFilled(true);
-		midcircle.setFillColor(Color.white);
+		midcircle.setColor(Color.white);
 		add(midcircle);
 		
 		double x = (getWidth() - 21.6) / 2;
@@ -43,7 +43,7 @@ public class Target extends GraphicsProgram {
 		
 		GOval innercircle = new GOval(x, y, 21.6, 21.6);
 		innercircle.setFilled(true);
-		innercircle.setFillColor(Color.RED);
+		innercircle.setColor(Color.RED);
 		
 		add(innercircle);
 		
