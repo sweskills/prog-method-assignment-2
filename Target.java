@@ -40,6 +40,7 @@ public class Target extends GraphicsProgram {
 		
 		GOval outtercircle = new GOval(a, b, 72, 72);
 		
+		outtercircle.setFilled(true);
 		outtercircle.setFillColor(Color.RED);
 		
 		add(outtercircle);
