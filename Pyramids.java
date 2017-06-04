@@ -21,8 +21,6 @@ public class Pyramids extends GraphicsProgram {
 		int y = (getHeight() - BRICK_HEIGHT) / 2;
 		
 		for (int i = 0; i <startbrickno; i++) {
-			if (i== startbrickno) {
-				startbrickno = startbrickno - 1;
 			y = y + 12;
 			x = x + 30;
 			GRect rect = new GRect(x, y, 30, 12);
