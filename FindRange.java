@@ -18,9 +18,9 @@ public class FindRange extends ConsoleProgram {
 		println("this program output the smallest and largest number");
 		
 			int x = readInt("?");
-			
+			for (int i = 0; i <= 10; i++){
 				if (x != SENTINEL){
-					for (int i = 0; i <= 10; i++){			
+								
 				}
 				
 		}
