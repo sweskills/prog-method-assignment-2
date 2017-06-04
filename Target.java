@@ -33,7 +33,7 @@ public class Target extends GraphicsProgram {
 		GOval midcircle = new GOval(i, j, 46.8, 46.8);
 		
 		midcircle.setFilled(false);
-		midcircle.setColor(Color.white);
+		midcircle.setFillColor(Color.white);
 		add(midcircle);
 		
 		double a = (getWidth() - 72) / 2;
