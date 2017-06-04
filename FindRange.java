@@ -10,8 +10,13 @@ import acm.program.*;
 import java.lang.Math;
 
 public class FindRange extends ConsoleProgram {
+	
+	private static final int SENTINEL = 0;
+	
 	public void run() {
 		println("This program finds the largest and smallest numbers.");
+		int val = readInt(" ? ");
+		
 		
 	}
 }
