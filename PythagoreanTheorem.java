@@ -22,9 +22,9 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		int b = readInt("Enter b: ");
 		
 		//computes the value for c i.e. add the squares of a & b and then take the square root
-		double total = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+		double result = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
 		
 		//prints the result to the console
-		println("c = " + total);
+		println("c = " + result);
 	}
 }
