@@ -39,9 +39,11 @@ public class Pyramid extends GraphicsProgram {
 		
 		for (int i= 1; i<=14; i++) {
 			
-			x = i * 14;
+			int rectsize = getWidth() / 14;
+			
+			x = i * rectsize;
 				
-			y = i * 12;
+			y = i * rectsize;
 	
 			GRect Rect = new GRect(x, y, 30, 12);
 					
