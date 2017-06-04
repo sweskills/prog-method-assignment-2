@@ -43,7 +43,7 @@ public class Pyramid extends GraphicsProgram {
 				
 				y = j * 14;
 	
-				GRect Rect = new GRect(100, 75, 30, 12);
+				GRect Rect = new GRect(x, y, 30, 12);
 					
 			    add(Rect);
 			    
