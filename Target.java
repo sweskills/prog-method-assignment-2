@@ -29,7 +29,6 @@ public class Target extends GraphicsProgram {
 		double j = (getHeight() - 46.8) / 2;
 		
 		GOval midcircle = new GOval(i, j, 46.8, 46.8);
-		midcircle.setFillColor(Color.RED);
 		
 		add(midcircle);
 		
