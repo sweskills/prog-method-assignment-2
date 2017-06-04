@@ -26,7 +26,11 @@ public class Pyramids extends GraphicsProgram {
 			GRect rect = new GRect(x, y, 30, 12);
 			add(rect);
 			
-			
+			if(i==startbrickno) {
+				startbrickno = startbrickno - 1;
+				i=0;
+				y= y+12;
+			}
 			
 		}
 		
