@@ -22,7 +22,12 @@ public class Target extends GraphicsProgram {
 		add (spar);
 		
 		//
-		add (new GOval(60, 40, 80, 80));
+		GOval spor = new GOval(60, 40, 80, 80);
+		spor.setColor(Color.WHITE);
+		spor.setFillColor(Color.WHITE);
+		spor.setFilled(true);
+		spor.isVisible();
+		add (spor);
 		
 		//
 		GOval spea = new GOval(80, 60, 40, 40);
