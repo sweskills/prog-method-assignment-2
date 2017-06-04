@@ -16,10 +16,10 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		println("Enter values to compute Pythagorean Theorem.");
 		
 		//prompts the user to enter a value for side a
-		int a = readInt("Enter a: ");
+		int a = readInt("a: ");
 		
 		//prompts the user to enter a value for side b
-		int b = readInt("Enter b: ");
+		int b = readInt("b: ");
 		
 		//computes the value for side c i.e. add the squares of a & b and then take the square root
 		double result = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
