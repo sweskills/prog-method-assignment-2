@@ -14,6 +14,18 @@ public class Pyramids extends GraphicsProgram {
 	
 	public void run() {
 		
+		int startbrickno = 14;
+		
+		int x = (getWidth() - BRICK_WIDTH) / 2;
+		
+		int y = (getHeight() - BRICK_HEIGHT) / 2;
+		
+		for (int i = 0; i <startbrickno; i++) {
+			
+			GRect rect = new GRect(x, y, 30, 12);
+			add(rect);
+		}
+		
 	}
 
 }
