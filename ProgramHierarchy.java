@@ -21,6 +21,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 		int x;
 		int y;
 		
+		
 		x = (getWidth() - WIDTH) / 2;
 		
 		y = (getHeight() - HEIGHT) / 2;
@@ -28,6 +29,8 @@ public class ProgramHierarchy extends GraphicsProgram {
 		GRect Rect = new GRect(x, y, WIDTH, HEIGHT);
 		
 		add(Rect);
+		
+		GLabel label = new GLabel("Program", x, y);
 	}
 }
 
