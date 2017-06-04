@@ -41,10 +41,8 @@ public class Pyramid extends GraphicsProgram {
 		
 		x = WIDTHOFBASE / 2;
 		
-		int j;
-		int k;
 		
-		for (int i= 0; i<14; i++) {
+		for (int i= 0; i<WIDTHOFBASE; i++) {
 			
 			GRect Rect = new GRect(x, y, 30, 12);
 					
