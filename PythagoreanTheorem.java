@@ -12,9 +12,9 @@ import java.lang.Math;
 public class PythagoreanTheorem extends ConsoleProgram {	
 	public void run() {
 		println("Enter values to compute Pythagorean Theorem.");
-		int n1 = readInt("Enter n1: ");
-		int n2 = readInt("Enter n2: ");
-		int total = n1 + n2;
+		int a = readInt("Enter a: ");
+		int b = readInt("Enter b: ");
+		int total = a + b;
 		println("The total is " + total + ".");
 	}
 }
