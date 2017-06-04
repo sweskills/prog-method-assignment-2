@@ -15,6 +15,6 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		int a = readInt("a: ");
 		int b = readInt("b: ");
 		double total = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
-		println("c = total");
+		println("total");
 	}
 }
