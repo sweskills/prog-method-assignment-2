@@ -29,7 +29,11 @@ public class ProgramHierarchy extends GraphicsProgram {
 		add (new GLabel("DialogProgram", 470, 178));
 		
 		//
-		GLine first = new GLine(288.0, 70.0, 288.0, 150.0); 
+		GLine first = new GLine(288.0, 70.0, 288.0, 150.0);
+		add (first);
+		
+		//
+		GLine second = new GLine(288.0, 70.0, 78.0, 150.0);
 		add (first);
 		/* You fill this in. */
 	}
