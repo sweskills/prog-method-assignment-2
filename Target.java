@@ -18,11 +18,15 @@ public class Target extends GraphicsProgram {
 		
 		double y = (getHeight() - 21.6) / 2;
 		
-		GOval innercircle = new GOval(x, 200, 21.6, 21.6);
+		GOval innercircle = new GOval(x, y, 21.6, 21.6);
 		
 		add(innercircle);
 		
-		GOval midcircle = new GOval(x, 178, 46.8, 46.8);
+		double i = (getWidth() - 46.8) / 2;
+		
+		double j = (getHeight() - 46.8) / 2;
+		
+		GOval midcircle = new GOval(x, y, 46.8, 46.8);
 		add(midcircle);
 		
 		
