@@ -44,12 +44,12 @@ public class Pyramid extends GraphicsProgram {
 		int j;
 		int k;
 		
-		for (int i= 0; i<x; i++) {
-			for (int l=0; i<y; l++) {
+		for (int i= 0; i<14; i++) {
+			for (int l=0; i<14; l++) {
 				j = (x + 10);
 				k = (y + 10);
 				
-			GRect Rect = new GRect(j, k, 30, 12);
+			GRect Rect = new GRect(x, y, 30, 12);
 					
 			add(Rect);
 				
