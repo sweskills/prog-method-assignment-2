@@ -15,10 +15,10 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		
 		println("Enter values to compute Pythagorean Theorem.");
 		
-		//prompt the user to enter a value for side a
+		//prompts the user to enter a value for side a
 		int a = readInt("Enter a: ");
 		
-		//prompt the user to enter a value for side b
+		//prompts the user to enter a value for side b
 		int b = readInt("Enter b: ");
 		
 		/*computes the value for c i.e. add the squares of a & b and 
