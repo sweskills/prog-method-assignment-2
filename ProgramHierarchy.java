@@ -25,7 +25,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 		add (new GLabel("ConsoleProgram", 249, 178));
 		
 		//
-		add (new GRect (350, 150, 130, 40));
+		add (new GRect (400, 150, 130, 40));
 		add (new GLabel("DialogProgram", 320, 178));
 		/* You fill this in. */
 	}
