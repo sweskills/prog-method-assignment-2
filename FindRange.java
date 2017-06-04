@@ -11,21 +11,29 @@ import java.lang.Math;
 
 public class FindRange extends ConsoleProgram {
 	
-	private static final int SENTINEL = 0;
+	private static final int Sentinel = 0;
 	
 	public void run() {
 		println("This program finds the largest and smallest numbers.");
-		int small = 0;
-		int large = 0;
-		int value = readInt(" ? ");
-		while (value != SENTINEL) {
-			small += value;
-			large += value;
-			value = readInt(" ? ");
+		int min = 0;
+		int max = 0;
+		
+		while (true) {
+			int val = readInt(" ? ");
+			if (val == Sentinel) {
+				break;
+			}
+			if (val > max) {
+				max = val;
+			} else if (val < min) {
+				min = val;
+			}
 		}
 		
-		println("smallest: " + small);
-		println("largest: " + large);
+		println("smallest: " + min);
+		println("largest: " + max);
+		
+		
 		
 		
 	}
