@@ -57,6 +57,11 @@ public class ProgramHierarchy extends GraphicsProgram {
 		GLabel label3 = new GLabel("GraphicsProgram", (x - 145), (y + 130));
 		
 		add(label3);
+		
+		GLine Line3 = new GLine((x - 100), (y+100), (x+175), (y+50));
+		
+		add(Line3);
 	}
+	
 }
 
