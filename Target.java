@@ -26,7 +26,7 @@ public class Target extends GraphicsProgram {
 		
 		add(innercircle);
 		
-		GOval midcircle = new GOval(200, 200, 46.8, 46.8);
+		GOval midcircle = new GOval(200, 350, 46.8, 46.8);
 		add(midcircle);
 		
 		
