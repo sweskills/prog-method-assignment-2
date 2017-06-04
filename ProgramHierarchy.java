@@ -12,6 +12,8 @@ import java.awt.*;
 
 public class ProgramHierarchy extends GraphicsProgram {	
 	public void run() {
+		
+		add (new GRect (50, 30, 60, 40));
 		/* You fill this in. */
 	}
 }
