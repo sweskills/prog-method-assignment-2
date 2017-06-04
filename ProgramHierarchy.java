@@ -53,6 +53,10 @@ public class ProgramHierarchy extends GraphicsProgram {
 		GRect Rect3 = new GRect((x-175), (y+100), WIDTH, HEIGHT);
 		
 		add(Rect3);
+
+		GLabel label3 = new GLabel("GraphicsProgram", (x - 145), (y + 125));
+		
+		add(label3);
 	}
 }
 
