@@ -19,10 +19,10 @@ public class FindRange extends ConsoleProgram {
 		for (int i = 0; i <= 10; i++){
 			int x = readInt("?");
 			
-				while (x != SENTINEL){
 					if (x==SENTINEL){
 						println("no value entered");
-					}
+					} 	else {
+						
 				}
 				
 		}
