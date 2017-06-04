@@ -16,9 +16,10 @@ public class FindRange extends ConsoleProgram {
 	
 		
 		println("this program output the smallest and largest number");
-		for (int i = 0; i <= 10; i++){
+		
 			int x = readInt("?");
-			
+		
+			while (x > 0) {
 					if (x==SENTINEL){
 						println("Sentinel Reached");
 					} 	else {
