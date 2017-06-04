@@ -15,6 +15,6 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		int a = readInt("Enter a: ");
 		int b = readInt("Enter b: ");
 		int total = a + b;
-		println("The total is " + total + ".");
+		println("c = " + total + ".");
 	}
 }
