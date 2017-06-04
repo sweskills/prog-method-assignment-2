@@ -25,7 +25,7 @@ public class Target extends GraphicsProgram {
 		spor.setColor(Color.WHITE);
 		spor.setFillColor(Color.WHITE);
 		spor.setFilled(true);
-		spor.sendToFront();
+		spor.setVisible(true);
 		add (spor);
 		
 		//
