@@ -16,11 +16,13 @@ public class FindRange extends ConsoleProgram {
 	
 		
 		println("this program output the smallest and largest number");
-		
+		for (int i = 0; i <= 10; i++){
 			int x = readInt("?");
-			for (int i = 0; i <= 10; i++){
-				if (x != SENTINEL){
-								
+			
+				while (x != SENTINEL){
+					if (x==SENTINEL){
+						println("no value entered");
+					}
 				}
 				
 		}
