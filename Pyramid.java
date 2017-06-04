@@ -37,7 +37,7 @@ public class Pyramid extends GraphicsProgram {
 				
 		int x;
 		
-		for (int i= 14; i.0; i--) {
+		for (int i= 14; i>0; i--) {
 			
 			for (int j=0; j<14; j++) {
 				x = i * 30;
