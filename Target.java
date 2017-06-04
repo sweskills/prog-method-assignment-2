@@ -16,15 +16,16 @@ public class Target extends GraphicsProgram {
 	
 	public void run() {
 		
-		double x = (getWidth() - 21.6) / 2;
+		double a = (getWidth() - 72) / 2;
 		
-		double y = (getHeight() - 21.6) / 2;
+		double b = (getHeight() - 72) / 2;
 		
-		GOval innercircle = new GOval(x, y, 21.6, 21.6);
-		innercircle.setFilled(false);
-		innercircle.setColor(Color.RED);
+		GOval outtercircle = new GOval(a, b, 72, 72);
 		
-		add(innercircle);
+		outtercircle.setFilled(true);
+		outtercircle.setColor(Color.RED);
+		
+		add(outtercircle);
 		
 		double i = (getWidth() - 46.8) / 2;
 		
@@ -36,16 +37,16 @@ public class Target extends GraphicsProgram {
 		midcircle.setFillColor(Color.white);
 		add(midcircle);
 		
-		double a = (getWidth() - 72) / 2;
+		double x = (getWidth() - 21.6) / 2;
 		
-		double b = (getHeight() - 72) / 2;
+		double y = (getHeight() - 21.6) / 2;
 		
-		GOval outtercircle = new GOval(a, b, 72, 72);
+		GOval innercircle = new GOval(x, y, 21.6, 21.6);
+		innercircle.setFilled(false);
+		innercircle.setColor(Color.RED);
 		
-		outtercircle.setFilled(true);
-		outtercircle.setColor(Color.RED);
+		add(innercircle);
 		
-		add(outtercircle);
 		
 		
 		
