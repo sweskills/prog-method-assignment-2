@@ -9,12 +9,7 @@
 import acm.program.*;
 import java.lang.Math;
 
-public class PythagoreanTheorem extends ConsoleProgram {
-	
-	private static final int a = (int) Math.pow(a, 2);
-	
-	private static final int b = (int) Math.pow(b, 2);
-	
+public class PythagoreanTheorem extends ConsoleProgram {	
 	public void run() {
 		println("Enter values to compute Pythagorean Theorem.");
 		int a = readInt("a: ");
