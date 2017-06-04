@@ -27,7 +27,7 @@ public class Hailstone extends ConsoleProgram {
 			}
 		}
 		
-		println("The process took " + m + " to reach 1");
+		println("The process took " + m + " steps to reach 1");
 	}
 }
 
