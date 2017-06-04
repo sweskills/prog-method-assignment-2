@@ -19,9 +19,10 @@ public class PythagoreanTheorem extends DialogProgram {
 		//
 		double a1 = Math.pow(a,2);
 		double b1 = Math.pow(b,2);
+		double c1 = (a1 + b1);
 		
 		//
-		double c1 = Math.sqrt (a1 + b1);
+		double c = Math.sqrt (a1 + b1);
 		
 
 		//
