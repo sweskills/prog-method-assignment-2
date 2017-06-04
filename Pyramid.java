@@ -39,7 +39,7 @@ public class Pyramid extends GraphicsProgram {
 		
 		for (int i= 1; i<=14; i++) {
 			
-				x = i * 30;
+				x = i * 14;
 				
 				y = i * 12;
 	
