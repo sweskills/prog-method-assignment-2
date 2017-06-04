@@ -21,7 +21,7 @@ public class Target extends GraphicsProgram {
 		add (spar);
 		
 		//
-		GOval spor = new GOval(60, 40, 150, 150);
+		GOval spor = new GOval(60, 40, 80, 800);
 		spor.setColor(Color.BLACK);
 		spor.setFillColor(Color.BLACK);
 		spor.setFilled(true);
