@@ -10,7 +10,16 @@ import acm.program.*;
 
 public class FindRange extends ConsoleProgram {
 	public void run() {
-		/* You fill this in */
+		println("Please enter an int value");
+	int n =  readInt();
+	
+	int compute(n){
+		if(n%2==0)
+			n+/2;
+		else
+			
+		
+	}
 	}
 }
 
