@@ -39,9 +39,9 @@ public class Pyramid extends GraphicsProgram {
 		
 		for (int i= 0; i<=14; i++) {
 			
-				x = i * 30 * 12;
+				x = i * 30;
 				
-				y = i * 12 * 30;
+				y = i * 12;
 	
 		GRect Rect = new GRect(x, y, 30, 12);
 					
