@@ -42,7 +42,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 		
 		add(Rect2);
 		
-		GLabel label2 = new GLabel("ConsoleProgram", (x + 50), (y + 125));
+		GLabel label2 = new GLabel("ConsoleProgram", (x + 30), (y + 125));
 		
 		add(label2);
 		
