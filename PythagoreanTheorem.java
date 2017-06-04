@@ -10,8 +10,10 @@ import acm.program.*;
 
 public class PythagoreanTheorem extends ConsoleProgram {
 	
-	//this program computes the length of the hypotenuse according to pythagoras theorem//
-	//it accepts values for a and b as integers and then calculates the solution of c as a double.// 
+	/*this program computes the length of the hypotenuse according to pythagoras theorem
+	 * it accepts values for a and b as integers and then calculates the solution
+	 *  of c as a double.
+	*/
 	
 	
 	public void run() {
