@@ -22,8 +22,7 @@ public class Target extends GraphicsProgram {
 		add (spar);
 		
 		//
-		GOval spor = new GOval(60, 40, 80, 80);
-		add (spor);
+		add (new GOval(60, 40, 80, 80));
 		
 		//
 		GOval spea = new GOval(80, 60, 40, 40);
