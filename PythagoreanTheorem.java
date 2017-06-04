@@ -11,6 +11,7 @@ import java.lang.Math;
 
 public class PythagoreanTheorem extends ConsoleProgram {
 	
+	//runs the program
 	public void run() {
 		
 		println("Enter values to compute Pythagorean Theorem.");
