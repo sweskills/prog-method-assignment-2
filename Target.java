@@ -26,9 +26,9 @@ public class Target extends GraphicsProgram {
 		
 		//
 		GOval spea = new GOval(80, 60, 40, 40);
-		spor.setColor(Color.RED);
-		spor.setFillColor(Color.RED);
-		spor.setFilled(true);
+		spea.setColor(Color.RED);
+		spea.setFillColor(Color.RED);
+		spea.setFilled(true);
 		add (spea);
 	}
 }
