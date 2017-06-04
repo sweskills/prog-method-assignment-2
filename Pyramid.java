@@ -37,7 +37,7 @@ public class Pyramid extends GraphicsProgram {
 				
 		int x;
 		
-		for (int i= 1; i<=14; i++) {
+		for (int i= 14; i>=1; i++) {
 			
 			int rectsize = getWidth() / 14;
 			
