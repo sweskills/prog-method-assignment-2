@@ -11,136 +11,61 @@
  */
 
 import acm.graphics.*;
+
 import acm.program.*;
-import java.awt.*;
 
 public class Pyramid extends GraphicsProgram {
 
-/** Width of each brick in pixels */
-	private static final int BRICK_WIDTH = 30;
+/* Defining the constants values */
 
-/** Width of each brick in pixels */
-	private static final int BRICK_HEIGHT = 12;
+   private static final int BRICK_WIDTH = 30;
 
-/** Number of bricks in the base of the pyramid */
-	private static final int BRICKS_IN_BASE = 12;
-	
-	public void run() {
-		/* You fill this in. */
-		int initBrick = 30;
-		int initPlacement = (getWidth() - BRICK_WIDTH) / 2;
-	
-		for (int i = 0; i < initBrick; i += 30)
-		{
-			int initX = i;
-			int x = initX + initPlacement;
-			GRect brick = new GRect(x, 0, BRICK_WIDTH, BRICK_HEIGHT);
-			add(brick);
-		}
-		for (int i = 0; i < 60; i += 30)
-		{
-			int initX = i;
-			int x = (initX + initPlacement) - 15;
-			int y = 12;
-			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
-			add(brick);
-		}
-		for (int i = 0; i < 90; i += 30)
-		{
-			int initX = i;
-			int x = (initX + initPlacement) - 30;
-			int y = 24;
-			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
-			add(brick);
-		}
-		for (int i = 0; i < 120; i += 30)
-		{
-			int initX = i;
-			int x = (initX + initPlacement) - 45;
-			int y = 36;
-			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
-			add(brick);
-		}
-		for (int i = 0; i < 150; i += 30)
-		{
-			int initX = i;
-			int x = (initX + initPlacement) - 60;
-			int y = 48;
-			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
-			add(brick);
-		}
-		for (int i = 0; i < 180; i += 30)
-		{
-			int initX = i;
-			int x = (initX + initPlacement) - 75;
-			int y = 60;
-			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
-			add(brick);
-		}
-		for (int i = 0; i < 210; i += 30)
-		{
-			int initX = i;
-			int x = (initX + initPlacement) - 90;
-			int y = 72;
-			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
-			add(brick);
-		}
-		for (int i = 0; i < 240; i += 30)
-		{
-			int initX = i;
-			int x = (initX + initPlacement) - 105;
-			int y = 84;
-			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
-			add(brick);
-		}
-		for (int i = 0; i < 270; i += 30)
-		{
-			int initX = i;
-			int x = (initX + initPlacement) - 120;
-			int y = 96;
-			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
-			add(brick);
-		}
-		for (int i = 0; i < 300; i += 30)
-		{
-			int initX = i;
-			int x = (initX + initPlacement) - 135;
-			int y = 108;
-			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
-			add(brick);
-		}
-		for (int i = 0; i < 330; i += 30)
-		{
-			int initX = i;
-			int x = (initX + initPlacement) - 150;
-			int y = 120;
-			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
-			add(brick);
-		}
-		for (int i = 0; i < 360; i += 30)
-		{
-			int initX = i;
-			int x = (initX + initPlacement) - 165;
-			int y = 132;
-			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
-			add(brick);
-		}
-		for (int i = 0; i < 390; i += 30)
-		{
-			int initX = i;
-			int x = (initX + initPlacement) - 180;
-			int y = 144;
-			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
-			add(brick);
-		}
-		for (int i = 0; i < 420; i += 30)
-		{
-			int initX = i;
-			int x = (initX + initPlacement) - 195;
-			int y = 156;
-			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
-			add(brick);
-		}
-		
-	}
+   private static final int BRICK_HEIGHT = 12;
+
+   private static final int BRICKS_IN_BASE = 14;
+
+    
+
+/* Defining the position of the PYRAMID */
+
+   public void run() {
+
+       double x = getWidth() / 2-BRICK_WIDTH;
+
+       double y = getHeight() - BRICKS_IN_BASE * BRICK_HEIGHT;
+
+        
+
+/* For loop draws the current row then evaluates the x and y of the row beneath.*/
+
+       for (int i = 0; i < BRICKS_IN_BASE; i++) {
+
+           drawRow(x, y, i);
+
+           y += BRICK_HEIGHT;
+
+           x -= BRICK_WIDTH / 2;
+
+       }
+
+   }
+
+    
+
+/* Draw bricks in current row */
+
+   private void drawRow(double x, double y, int count) {
+
+       for (int i = 0; i <= count; i++) {
+
+           add(new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT));
+
+           x += BRICK_WIDTH;
+
+       }
+
+ 
+
+   }
+
 }
