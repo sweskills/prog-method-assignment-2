@@ -30,7 +30,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 		
 		add(Rect);
 		
-		GLabel label1 = new GLabel("Program", (x + 50), (y + 25));
+		GLabel label1 = new GLabel("Program", (x + 50), (y + 30));
 		
 		add(label1);
 		
