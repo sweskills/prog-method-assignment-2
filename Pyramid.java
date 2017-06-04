@@ -29,9 +29,9 @@ public class Pyramid extends GraphicsProgram {
 		
 		int totalrect = getWidth() / BRICK_WIDTH;
 		
-		int WIDTHOFBASE = 14;
+		int WIDTHOFBASE = 360;
 				
-		int HEIGHT = 14;
+		int HEIGHT = 168;
 		
 		int y;
 				
@@ -43,7 +43,7 @@ public class Pyramid extends GraphicsProgram {
 				
 				y = i * 12;
 	
-		GRect Rect = new GRect(x, y, 30, 12);
+		GRect Rect = new GRect(x, y, 360, 168);
 					
 	    add(Rect);
 			    
