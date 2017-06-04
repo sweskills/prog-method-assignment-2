@@ -18,6 +18,9 @@ public class ProgramHierarchy extends GraphicsProgram {
 	
 	public void run() {
 		
+		int x;
+		int y;
+		
 		x = (getWidth() - WIDTH) / 2;
 		
 		y = (getHeight() - HEIGHT) / 2;
