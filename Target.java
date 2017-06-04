@@ -43,7 +43,7 @@ public class Target extends GraphicsProgram {
 		
 		GOval innercircle = new GOval(x, y, 21.6, 21.6);
 		innercircle.setFilled(false);
-		innercircle.setColor(Color.RED);
+		innercircle.setFillColor(Color.RED);
 		
 		add(innercircle);
 		
