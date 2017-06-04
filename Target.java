@@ -21,7 +21,7 @@ public class Target extends GraphicsProgram {
 		double y = (getHeight() - 21.6) / 2;
 		
 		GOval innercircle = new GOval(x, y, 21.6, 21.6);
-		innercircle.setFilled(true);
+		innercircle.setFilled(false);
 		innercircle.setColor(Color.RED);
 		
 		add(innercircle);
