@@ -37,6 +37,12 @@ public class ProgramHierarchy extends GraphicsProgram {
 		GLine Line1 = new GLine((x + 75), (y+50), (x+75), (y+100));
 		
 		add(Line1);
+		
+		GRect Rect2 = new GRect(x, (y+100), WIDTH, HEIGHT);
+		
+		add(Rect2);
+		
+		
 	}
 }
 
