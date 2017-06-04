@@ -27,24 +27,120 @@ public class Pyramid extends GraphicsProgram {
 	
 	public void run() {
 		/* You fill this in. */
-		int totalPyramidWidth = BRICK_WIDTH * BRICKS_IN_BASE;
-		int totalPyramidHeight = BRICK_HEIGHT * BRICKS_IN_BASE;
-		int startingHeight = getHeight() - 0;
-		int startingWidth = (getWidth() - totalPyramidWidth) / 2;
-		int size = BRICKS_IN_BASE + 1;
-		int x = startingWidth;
-		for (int j = 0; j < BRICKS_IN_BASE; j++)
+		int initBrick = 30;
+		int initPlacement = (getWidth() - BRICK_WIDTH) / 2;
+	
+		for (int i = 0; i < initBrick; i += 30)
 		{
-			size--;
-			int pyramidWidth = size * BRICK_WIDTH;
-			x = (getWidth() - pyramidWidth) / 2;
-			startingHeight -= BRICK_HEIGHT;
-			for (int i = 0; i < size; i++)
-			{
-				GRect brick = new GRect(x, startingHeight, BRICK_WIDTH, BRICK_HEIGHT);
-				add(brick);
-				x += BRICK_WIDTH;
-			}
+			int initX = i;
+			int x = initX + initPlacement;
+			GRect brick = new GRect(x, 0, BRICK_WIDTH, BRICK_HEIGHT);
+			add(brick);
 		}
-	}		
+		for (int i = 0; i < 60; i += 30)
+		{
+			int initX = i;
+			int x = (initX + initPlacement) - 15;
+			int y = 12;
+			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
+			add(brick);
+		}
+		for (int i = 0; i < 90; i += 30)
+		{
+			int initX = i;
+			int x = (initX + initPlacement) - 30;
+			int y = 24;
+			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
+			add(brick);
+		}
+		for (int i = 0; i < 120; i += 30)
+		{
+			int initX = i;
+			int x = (initX + initPlacement) - 45;
+			int y = 36;
+			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
+			add(brick);
+		}
+		for (int i = 0; i < 150; i += 30)
+		{
+			int initX = i;
+			int x = (initX + initPlacement) - 60;
+			int y = 48;
+			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
+			add(brick);
+		}
+		for (int i = 0; i < 180; i += 30)
+		{
+			int initX = i;
+			int x = (initX + initPlacement) - 75;
+			int y = 60;
+			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
+			add(brick);
+		}
+		for (int i = 0; i < 210; i += 30)
+		{
+			int initX = i;
+			int x = (initX + initPlacement) - 90;
+			int y = 72;
+			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
+			add(brick);
+		}
+		for (int i = 0; i < 240; i += 30)
+		{
+			int initX = i;
+			int x = (initX + initPlacement) - 105;
+			int y = 84;
+			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
+			add(brick);
+		}
+		for (int i = 0; i < 270; i += 30)
+		{
+			int initX = i;
+			int x = (initX + initPlacement) - 120;
+			int y = 96;
+			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
+			add(brick);
+		}
+		for (int i = 0; i < 300; i += 30)
+		{
+			int initX = i;
+			int x = (initX + initPlacement) - 135;
+			int y = 108;
+			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
+			add(brick);
+		}
+		for (int i = 0; i < 330; i += 30)
+		{
+			int initX = i;
+			int x = (initX + initPlacement) - 150;
+			int y = 120;
+			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
+			add(brick);
+		}
+		for (int i = 0; i < 360; i += 30)
+		{
+			int initX = i;
+			int x = (initX + initPlacement) - 165;
+			int y = 132;
+			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
+			add(brick);
+		}
+		for (int i = 0; i < 390; i += 30)
+		{
+			int initX = i;
+			int x = (initX + initPlacement) - 180;
+			int y = 144;
+			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
+			add(brick);
+		}
+		for (int i = 0; i < 420; i += 30)
+		{
+			int initX = i;
+			int x = (initX + initPlacement) - 195;
+			int y = 156;
+			GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
+			add(brick);
+		}
+		
+	}
 }
