@@ -14,10 +14,15 @@ public class FindRange extends ConsoleProgram {
 	//
 		public void run() {
 	
-		int i = readInt("?");
+		
 		println("this program output the smallest and largest number");
-		while (i != SENTINEL);
+		for (int i = 0; i <= 10; i++){
+			int x = readInt("?");
+				if (x == SENTINEL){
+					
+				}
 				
+		}
 		/* You fill this in */
 	}
 }
