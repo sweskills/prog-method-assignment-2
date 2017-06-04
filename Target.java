@@ -15,5 +15,6 @@ public class Target extends GraphicsProgram {
 		
 		///
 		GOval spar = new GOval(70,20);
+		add (spar);
 	}
 }
