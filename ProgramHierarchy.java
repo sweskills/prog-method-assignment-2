@@ -18,7 +18,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 		
 		//
 		add (new GRect (20, 150, 140, 40));
-		add (new GLabel("GraphicsProgram", 50, 178));
+		add (new GLabel("GraphicsProgram", 45, 178));
 		
 		//
 		add (new GRect (230, 150, 130, 40));
