@@ -18,7 +18,7 @@ public class FindRange extends ConsoleProgram {
 		while (true){	
 			int val = readInt("enter val: ");
 			if (val == SENTINEL) break;
-			total += val;
+			
 		}
 		println("Total = " + total);
 	}
