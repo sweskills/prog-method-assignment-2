@@ -20,7 +20,7 @@ public class FindRange extends ConsoleProgram {
 			int x = readInt("?");
 			
 					if (x==SENTINEL){
-						println("no value entered");
+						println("Sentinel Reached");
 					} 	else {
 						
 				}
