@@ -16,16 +16,21 @@ public class Target extends GraphicsProgram {
 	
 	public void run() {
 		
+		/*the center of the run window is determined and each circle shares a particular
+		 * reference point, the only difference being their radius, each radius has been
+		 * from inches to pixels.
+		 */
+		
 		double a = (getWidth() - 72) / 2;
 		
 		double b = (getHeight() - 72) / 2;
 		
-		GOval outtercircle = new GOval(a, b, 72, 72);
+		GOval outtercircle = new GOval(a, b, 72, 72); 
 		
-		outtercircle.setFilled(true);
+		outtercircle.setFilled(true); 
 		outtercircle.setColor(Color.RED);
 		
-		add(outtercircle);
+		add(outtercircle); //this gives a red circle of radius 72 pixels from reference point//
 		
 		double i = (getWidth() - 46.8) / 2;
 		
@@ -35,7 +40,7 @@ public class Target extends GraphicsProgram {
 		
 		midcircle.setFilled(true);
 		midcircle.setColor(Color.white);
-		add(midcircle);
+		add(midcircle); //this creates a white circle of radius 46.8 pixels from reference point//
 		
 		double x = (getWidth() - 21.6) / 2;
 		
@@ -45,7 +50,7 @@ public class Target extends GraphicsProgram {
 		innercircle.setFilled(true);
 		innercircle.setColor(Color.RED);
 		
-		add(innercircle);
+		add(innercircle); //this creates a red circle of radius 21.6 pixels from reference point//
 		
 		
 		
