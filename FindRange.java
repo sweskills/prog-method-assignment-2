@@ -31,6 +31,7 @@ public class FindRange extends ConsoleProgram {
 			
 			//checks if the first value entered is 0
 			if (val == Sentinel) {
+				println("No value entered please enter a valid value");
 				break;
 			}
 			
