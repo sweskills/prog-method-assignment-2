@@ -27,11 +27,7 @@ public class Pyramids extends GraphicsProgram {
 			add(rect);
 			
 			
-				i = 0;
-				y = y + 12;
-				x = x + 30;
-				
-			}
+			
 		}
 		
 	}
