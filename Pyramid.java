@@ -27,6 +27,7 @@ public class Pyramid extends GraphicsProgram {
 	
 	public void run() {
 		/* You fill this in. */
+		add(new GRect(375, 450, 25, 20));
 	}
 }
 
