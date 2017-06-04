@@ -16,7 +16,7 @@ public class Hailstone extends ConsoleProgram {
 		int times = 100;
 		int x = readInt ("Enter a number:");
 		//
-		for (int i = 1; i < times; i++){
+		
 		if (x % 2 != 0 ){
 			println ("+ x is odd");
 			int n = (3*x) + 1;
@@ -28,7 +28,7 @@ public class Hailstone extends ConsoleProgram {
 			}
 			/* You fill this in */
 		}
-	}
+	
 }
 
 	
