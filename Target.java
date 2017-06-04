@@ -14,7 +14,7 @@ public class Target extends GraphicsProgram {
 	public void run() {
 		
 		///
-		GOval spar = new GOval(70,20);
+		GOval spar = new GOval(80,80);
 		add (spar);
 	}
 }
