@@ -47,7 +47,7 @@ public class Pyramid extends GraphicsProgram {
 					
 	    add(Rect);
 			    
-			}
+			
 				
 			
 		}
