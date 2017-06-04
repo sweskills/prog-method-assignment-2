@@ -32,7 +32,7 @@ public class Target extends GraphicsProgram {
 		
 		midcircle.setFillColor(Color.RED);
 		
-		add(midcircle);
+		
 		
 		double a = (getWidth() - 72) / 2;
 		
@@ -42,7 +42,7 @@ public class Target extends GraphicsProgram {
 		
 		outtercircle.setFillColor(Color.RED);
 		
-		add(outtercircle);
+		
 		
 		
 		
