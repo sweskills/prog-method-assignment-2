@@ -65,6 +65,10 @@ public class ProgramHierarchy extends GraphicsProgram {
 		GRect Rect4 = new GRect((x+175), (y+100), WIDTH, HEIGHT);
 		
 		add(Rect4);
+		
+		GLabel label4 = new GLabel("DialogProgram", (x + 200), (y + 130));
+		
+		add(label4);
 	}
 	
 }
