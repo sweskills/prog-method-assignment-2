@@ -18,7 +18,7 @@ public class Target extends GraphicsProgram {
 		
 		/*the center of the run window is determined and each circle shares a particular
 		 * reference point, the only difference being their radius, each radius has been
-		 * from inches to pixels.
+		 * from inches to pixels. 
 		 */
 		
 		double a = (getWidth() - 72) / 2;
