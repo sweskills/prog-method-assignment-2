@@ -31,6 +31,8 @@ public class ProgramHierarchy extends GraphicsProgram {
 		add(Rect);
 		
 		GLabel label = new GLabel("Program", x, y);
+		
+		add(label);
 	}
 }
 
