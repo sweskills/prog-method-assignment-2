@@ -58,7 +58,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 		
 		add(label3);
 		
-		GLine Line3 = new GLine((x - 100), (y+100), (x+175), (y+50));
+		GLine Line3 = new GLine((x + 75), (y+100), (x+175), (y+50));
 		
 		add(Line3);
 	}
