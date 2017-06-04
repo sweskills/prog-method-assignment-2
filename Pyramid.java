@@ -39,12 +39,15 @@ public class Pyramid extends GraphicsProgram {
 				
 		y = (getHeight() - BRICK_HEIGHT) / 2;
 		
-		for (int i=1; i<=14; i++) {
-		
-			GRect Rect = new GRect(x, y, 30, 12);
+		GRect Rect = new GRect(x, y, 30, 12);
 					
-			add(Rect);
-		}
+		add(Rect);
+		
+		for (int rect=1; rect<=14; rect++);
+			
+			GRect Rects = new GRect((x+12), (y+30), 30, 12);
+			add(Rects);
+			    
 			
 				
 			
