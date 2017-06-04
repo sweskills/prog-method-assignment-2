@@ -14,7 +14,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 	
 	private static final int HEIGHT = 50;
 	
-	private static final int WIDTH = 100;
+	private static final int WIDTH = 150;
 	
 	public void run() {
 		
