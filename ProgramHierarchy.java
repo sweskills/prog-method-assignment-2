@@ -33,8 +33,12 @@ public class ProgramHierarchy extends GraphicsProgram {
 		add (first);
 		
 		//
-		GLine second = new GLine(288.0, 70.0, 78.0, 150.0);
+		GLine second = new GLine(288.0, 70.0, 80.0, 150.0);
 		add (second);
+		
+		//
+		GLine third = new GLine(288.0, 70.0, 526.0, 150.0);
+		add (first);
 		/* You fill this in. */
 	}
 }
