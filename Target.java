@@ -22,11 +22,11 @@ public class Target extends GraphicsProgram {
 		
 		int y = WIDTH / 2;
 		
-		GOval innercircle = new GOval(x, y, 21.6, 21.6);
+		GOval innercircle = new GOval(200, 200, 21.6, 21.6);
 		
 		add(innercircle);
 		
-		GOval midcircle = new GOval(x, y, 46.8, 46.8);
+		GOval midcircle = new GOval(200, 200, 46.8, 46.8);
 		add(midcircle);
 		
 		
