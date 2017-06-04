@@ -18,12 +18,13 @@ public class Target extends GraphicsProgram {
 		spar.setColor(Color.RED);
 		spar.setFillColor(Color.RED);
 		spar.setFilled(true);
+		spar.sendToBack();
 		add (spar);
 		
 		//
 		GOval spor = new GOval(60, 40, 80, 80);
-		spor.setColor(Color.BLACK);
-		spor.setFillColor(Color.BLACK);
+		spor.setColor(Color.WHITE);
+		spor.setFillColor(Color.WHITE);
 		spor.setFilled(true);
 		spor.isVisible();
 		add (spor);
