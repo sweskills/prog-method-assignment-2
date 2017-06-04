@@ -9,6 +9,7 @@
 import acm.program.*;
 
 public class Hailstone extends ConsoleProgram {
+	
 	public void run() {
 		
 		int n = readInt("Enter a number: ");
@@ -18,10 +19,10 @@ public class Hailstone extends ConsoleProgram {
 		while (n != 1) {
 			if (n % 2 == 0) {
 				println (n + " is even, so I take half: " + n/2);
-				n = n/2;
+				n = n / 2;
 				m++;
 			} else {
-				println (n + " is odd, so I make 3n+l: " + (3 * n + 1));
+				println (n + " is odd, so I make 3n + l: " + (3 * n + 1));
 				n = 3 * n + 1;
 				m++;
 			}
