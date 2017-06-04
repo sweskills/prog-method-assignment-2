@@ -15,6 +15,8 @@ public class Target extends GraphicsProgram {
 		
 		///
 		GOval spar = new GOval(40, 20, 80,80);
+		spar.setFillColor(Color.RED);
+		
 		add (spar);
 	}
 }
