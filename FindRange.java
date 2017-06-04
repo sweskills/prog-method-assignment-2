@@ -7,7 +7,6 @@
  */
 
 import acm.program.*;
-import java.lang.Math;
 
 public class FindRange extends ConsoleProgram {
 	
