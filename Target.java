@@ -29,7 +29,7 @@ public class Target extends GraphicsProgram {
 		add (spor);
 		
 		//
-		GOval spea = new GOval(100, 60, 40, 40);
+		GOval spea = new GOval(80, 60, 40, 40);
 		spor.setColor(Color.RED);
 		spor.setFillColor(Color.RED);
 		spor.setFilled(true);
