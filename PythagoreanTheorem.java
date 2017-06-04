@@ -11,5 +11,7 @@ import acm.program.*;
 public class PythagoreanTheorem extends ConsoleProgram {
 	public void run() {
 		println("Enter values to compute Pythagorean Theorem.");
+		int a = readInt("a: ");
+		
 	}
 }
