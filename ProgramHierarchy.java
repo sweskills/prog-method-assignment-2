@@ -14,7 +14,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 	public void run() {
 		
 		add (new GRect (50, 30, 90, 40));
-		add (new GLabel("Program", 70, 58));
+		add (new GLabel("Program", 73, 58));
 		/* You fill this in. */
 	}
 }
