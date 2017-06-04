@@ -33,9 +33,9 @@ public class Pyramid extends GraphicsProgram {
 				
 		int HEIGHT = getHeight();
 		
-		int y = 0;
+		int y;
 		
-		int x = 0;
+		int x;
 		
 		int j;
 		int k;
