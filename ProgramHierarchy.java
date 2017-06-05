@@ -35,9 +35,10 @@ public class ProgramHierarchy extends GraphicsProgram {
 		double a = ((WIDTH - label1.getWidth()) / 2 );
 		double b = ((HEIGHT - label1.getAscent()) / 2);
 		
+		add(label1);
+		
 		label1.setLocation( a, b);
 		
-		add(label1);
 		
 		GLine Line1 = new GLine((x + 75), (y+50), (x+75), (y+100));
 		
