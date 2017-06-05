@@ -37,6 +37,7 @@ public class Pyramid extends GraphicsProgram {
 			int number_of_bricks = (BRICKS_IN_BASE) + (- 1 + 1);
 			
 			int x= (getWidth()/2) - (number_of_bricks/2);
+			int y = (- 1*getHeight()) + (number_of_bricks/2);
 		}
 	}
 }
