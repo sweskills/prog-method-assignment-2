@@ -15,7 +15,7 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		println ("Input Number for computation.");
 		int a = readInt ("a:");
 		int b = readInt ("b:");
-		double c = Math.sqrt (a * a + b * b);
+		double c = Math.sqrt ((a * a) + (b * b));
 		println ("c:" + c);
 	}
 }
