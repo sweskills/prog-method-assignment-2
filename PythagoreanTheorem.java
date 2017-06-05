@@ -11,13 +11,18 @@ import acm.program.*;
 public class PythagoreanTheorem extends ConsoleProgram {
 	public void run() {
 		/* You fill this in */
-		
-	int a = readInt ();
-	int b = readInt ();
+		println("*********************************************************");
+		println("Enter the values of A and B to compute Pythagoras theorem");
+	int a = readInt ("A = ");
+		println("/n");
+	int b = readInt ("B = ");
 	
-	double c = Math.sqrt((a*a) + (b*b));
+	int c = ((a*a) + (b*b));
 	
-	println(c);
+	double x = Math.sqrt (c);
+	println("/n");
+	println(x);
+	println("*********************************************************");
 	
 	}
 }
