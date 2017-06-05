@@ -3,7 +3,6 @@
  * Name: Enoch Mbaebie
  * Program: Sweskills Tech Talent Academy
  * --------------------------------------
- * This file is the starter file for the FindRange problem.
  */
 /* Sentinel Console Program that read Integers*/
 
