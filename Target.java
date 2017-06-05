@@ -27,7 +27,8 @@ public class Target extends GraphicsProgram {
 		
 		GOval middleCircle = new GOval(c,d,46.8,46.8);
 		middleCircle.setFilled(true);
-		
+		middleCircle.setColor(Color.WHITE);
+		add (middleCircle);
 		
 	}			
 				
