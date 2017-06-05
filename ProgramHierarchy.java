@@ -20,22 +20,34 @@ public class ProgramHierarchy extends GraphicsProgram {
 		
 		double centerX = getWidth()/2 - BOX_WIDTH/2; 
 		double centerY = getHeight()/2 - BOX_HEIGHT/2;
-		drawSubclasses(centerX,centerY);
-		drawSuperclass(centerX,centerY);
+		lowerRects(centerX, centerY);
+		upperRect(centerX, centerY);
 		
-		GLine ConsoleToProgram = new GLine(centerX + BOX_WIDTH/2, centerY, centerX + BOX_WIDTH/2, centerY - 2 * BOX_SPACING);
-		add(ConsoleToProgram);
+		GLine consoleToProgram = new GLine(centerX + BOX_WIDTH/2, centerY, centerX + BOX_WIDTH/2, centerY - 2 * BOX_SPACING);
+		add(consoleToProgram);
+		
+		GLine graphicsToProgram = new GLine(centerX + BOX_WIDTH/2, centerY, centerX + BOX_WIDTH/2, centerY - 2 * BOX_SPACING);
+		add(graphicsToProgram);
+		
+		GLine dialogToProgram = new GLine(centerX + BOX_WIDTH/2, centerY, centerX + BOX_WIDTH/2, centerY - 2 * BOX_SPACING);
+		add(dialogToProgram);
 	}
 	
-	private void drawSubclasses(double centerX,double centerY) {
+	private void lowerRects(double centerX, double centerY) {
+		
 		GRect GraphicsProgramBox = new GRect(centerX - BOX_WIDTH - BOX_SPACING , centerY, BOX_WIDTH, BOX_HEIGHT);
 		add(GraphicsProgramBox);
+		
 		GRect ConsoleProgramBox = new GRect(centerX, centerY, BOX_WIDTH, BOX_HEIGHT);
 		add(ConsoleProgramBox);
+		
 		GRect DialogProgramBox = new GRect(centerX + BOX_WIDTH + BOX_SPACING , centerY, BOX_WIDTH, BOX_HEIGHT);
 		add(DialogProgramBox);
 	}
-	private void drawSuperclass(double centerX, double centerY) {
+	
+	
+	private void upperRect(double centerX, double centerY) {
+		
 		GRect ProgramBox = new GRect(centerX, centerY - BOX_HEIGHT - 2 * BOX_SPACING, BOX_WIDTH, BOX_HEIGHT);
 		add(ProgramBox);
 		
