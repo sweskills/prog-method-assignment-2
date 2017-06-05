@@ -36,7 +36,7 @@ public class Pyramid extends GraphicsProgram {
 		n++
 		}
 		
-		private void (addCenteredRowOfBricks()){
+		private void addCenteredRowOfBricks(double m, double n) {
 			
 		}
 		}
