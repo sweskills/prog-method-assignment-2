@@ -14,14 +14,14 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		println("*********************************************************");
 		println("Enter the values of A and B to compute Pythagoras theorem");
 	int a = readInt ("A = ");
-		println("/n");
+		println("");
 	int b = readInt ("B = ");
 	
 	int c = ((a*a) + (b*b));
 	
 	double x = Math.sqrt (c);
-	println("/n");
-	println(x);
+	println("");
+	println("The answer is " +x);
 	println("*********************************************************");
 	
 	}
