@@ -21,10 +21,11 @@ public class FindRange extends ConsoleProgram {
 			
 					if (x==SENTINEL){
 						println("Sentinel Reached"); break;
-					} 	else {
+					} 
+					
 						
 						
-				}
+				
 				
 		}
 		/* You fill this in */
