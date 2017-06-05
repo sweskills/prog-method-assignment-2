@@ -12,23 +12,31 @@ import acm.util.*;
 public class Hailstone extends ConsoleProgram {
 	public void run() {
 		
-		
-		
-		int x = readInt ("Enter a number:");
+		//
+		int n = readInt ("?");
+		int m = 0;
 		
 		//
-		while (x > 1){
-			if (x % 2 != 0 ){
-				println ("+ x is odd");
-				int y = (3*x) + 1;
-				println ("so I make 3n+1:" + y);
-		}	else {
-				println ("+x is even");
-				int y = x / 2;
-				println ("so I take half:" + y);
+		while (n != 1){
+			if (n % 2 == 0){
+				println (n + " is even, so i take half: " + n/2 );
+				n /= 2;
+				m++;
+			}
+			
+			//
+			else {
+				println (n + " ia odd, so I make 3n + 1: " + ((3*n) +1));
+				n = (3 * n) + 1;
+				m++;
+			}
+			
+			//
+			println (" process of steps " + m + " steps to reach 1 ");
+		
 			}
 			/* You fill this in */
-		}
+		
 	
 	}
 	
