@@ -24,8 +24,8 @@ public class Hailstone extends ConsoleProgram {
 				println (number + " is even, so I take half:" + temp);
 				number = temp;
 			}
-			steps ++;
+			steps++;
 		}
-	   println ("The process took"  + steps +  "steps to reach 1.");
+	   println ("The process took"  +steps+  "steps to reach 1.");
 	}
 }
