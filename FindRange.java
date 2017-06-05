@@ -7,7 +7,7 @@
  */
 
 import acm.program.*;
-
+/* Sentinel Console Program that read Integers*/
 public class FindRange extends ConsoleProgram {
 	private static final int SENTINEL_VALUE = 0;
 	public void run() {
@@ -29,11 +29,6 @@ public class FindRange extends ConsoleProgram {
 			println ("smallest:" + smallest);
 			println ("largest:" + largest);
 		    }
-		    }
-				
-			
+		    }	
 		}
-		/* You fill this in */
-	}
-}
 
