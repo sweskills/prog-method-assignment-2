@@ -10,8 +10,8 @@ import acm.program.*;
 
 public class FindRange extends ConsoleProgram {
 	public void run() {
-		println("Please enter an int value");
-	int n =  readInt();
+		println("Please enter a lidt of int values");
+	int n1 =  readInt("n1: ");
 	
 	int compute(n){
 		if(n%2==0)
