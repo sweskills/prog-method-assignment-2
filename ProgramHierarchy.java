@@ -12,9 +12,9 @@ import java.awt.*;
 
 public class ProgramHierarchy extends GraphicsProgram {	
 	
-	private static final double BOX_WIDTH = 140;
-	private static final double BOX_HEIGHT = 40;
-	private static final double BOX_SPACING = 25;
+	private static final double BOX_WIDTH = 150;
+	private static final double BOX_HEIGHT = 50;
+	private static final double BOX_SPACING = 30;
 	
 	public void run() {
 		
