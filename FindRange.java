@@ -30,7 +30,9 @@ public class FindRange extends ConsoleProgram {
 			int val = readInt("enter val: ");
 			
 			//checks if the first value entered is 0
-			if (val == SENTINEL) break;
+			if (val == SENTINEL) {
+				break;
+			}
 			
 			//checks if the value is greater than the maximum value
 			//and then assigns it as the largest
