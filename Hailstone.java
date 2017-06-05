@@ -19,7 +19,7 @@ public class Hailstone extends ConsoleProgram {
 		int m = 0;
 		
 		//
-		while (n != 1){0
+		while (n != 1){
 			if (n % 2 == 0){
 				println (n + " is even, so i take half: " + n/2 );
 				n /= 2;
