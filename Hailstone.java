@@ -28,7 +28,7 @@ public class Hailstone extends ConsoleProgram {
 			
 			//
 			else {
-				println (n + " ia odd, so I make 3n + 1: " + ((3*n) +1));
+				println (n + " is odd, so I make 3n + 1: " + ((3*n) +1));
 				n = (3 * n) + 1;
 				m++;
 			}
