@@ -37,6 +37,8 @@ public class Pyramid extends GraphicsProgram {
 		}
 		
 		private void addCenteredRowOfBricks(double m, double n) {
+			
+			double x = getWidth()/2 - m/2 * BRICK_WIDTH;
 		
 			double x = getHeight() - n*BRICK_HEIGHT;
 			addBrick(x,y);
