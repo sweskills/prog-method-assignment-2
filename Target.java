@@ -26,6 +26,8 @@ public class Target extends GraphicsProgram {
 		double d = (getHeight() - 46.8)/2;
 		
 		GOval middleCircle = new GOval(c,d,46.8,46.8);
+		middleCircle.setFilled(true);
+		
 		
 	}			
 				
