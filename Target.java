@@ -17,7 +17,7 @@ public class Target extends GraphicsProgram {
 		double a = (getWidth() - 72)/2;
 		double b = (getHeight() - 72)/2;
 		
-		GOval outerCircle
+		GOval outterCircle = new GOval(a,b,72,72)
 	}			
 				
 }
