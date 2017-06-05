@@ -26,7 +26,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 		GLine consoleToProgram = new GLine(centerX + BOX_WIDTH/2, centerY, centerX + BOX_WIDTH/2, centerY - 2 * BOX_SPACING);
 		add(consoleToProgram);
 		
-		GLine graphicsToProgram = new GLine(getWidth()/2, getHeight()/2, getWidth()/2, getHeight()/2 + BOX_HEIGHT);
+		GLine graphicsToProgram = new GLine(centerX + BOX_WIDTH/2, centerY, centerX + BOX_WIDTH/2, centerY - 2 * BOX_SPACING);
 		add(graphicsToProgram);
 		
 		GLine dialogToProgram = new GLine(centerX + BOX_WIDTH/2, centerY, centerX + BOX_WIDTH/2, centerY - 2 * BOX_SPACING);
