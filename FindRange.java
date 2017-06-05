@@ -34,11 +34,11 @@ public class FindRange extends ConsoleProgram {
 						min = val;
 				}
 				
-			
+				}
 				println (" smallest: " + min);
 				
 				println (" largest: " + max);
-				}
+				
 				
 					println (" Sentinel is reached ");
 		/* You fill this in */
