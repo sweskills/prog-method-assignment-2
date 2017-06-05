@@ -10,39 +10,18 @@ import acm.graphics.*;
 import acm.program.*;
 import java.awt.*;
 
-public class Target extends GraphicsProgram {	
-	
-	
-	private static int inch = 72;
-	//private static int 
-	
+public class Target extends GraphicsProgram {
 	
 	public void run() {
-		firstCircle();
 		
-	}
-	
-	public void firstCircle(){
-		double radius = inch;
-		double x = (getWidth()/2)- (radius/2);
-		double y = (getHeight()/2) -(radius/2);
-		
-		GOval myOval = new GOval (x,y,radius,radius);
-		myOval.setFilled(true);
-		myOval.setFillColor(Color.RED);
-		add(myOval);
-		
-		//add(myOval);
-	}
-	
-	public void secondCircle(){
-		
-		
-	}
-	
-	public void thirdCircle(){
-		
-		
-	}
-	
+		double a = (getWidth() - 72)/2;
+		double b = (getHeight() - 72)/2;
+				
+	}			
+				
 }
+	
+	
+	
+	
+	
