@@ -19,11 +19,13 @@ public class Hailstone extends ConsoleProgram {
 			if (x % 2 == 0) {
 				
 				println( x+ " is even, so i take half: " + x/2 );
+				x /= 2;
 				y++;
 				
 			}
 			else{
 				println( x+ " is odd, so i compute 3x + 1: " + (3 * x + 1) );
+				x = 3 * x + 1;
 				y++;
 			}
 			
