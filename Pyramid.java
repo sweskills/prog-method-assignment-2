@@ -29,7 +29,10 @@ public class Pyramid extends GraphicsProgram {
 		/* You fill this in. */
 		for (int i = 1; i <= 14; i--);
 		{
-		System.out.print(i+" ");
+		     System.out.print(i+" ");
+		
+		System.out.printIn();
+	
 	}
 }
 
