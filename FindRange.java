@@ -30,10 +30,10 @@ public class FindRange extends ConsoleProgram {
 					println (" Sentinel is reached ");
 					break;
 				}
-				if (val > max){
+				if (val < max){
 						val = max;
 					
-				}	else if(val < min) {
+				}	else if(val > min) {
 						val = min;
 				}
 				
