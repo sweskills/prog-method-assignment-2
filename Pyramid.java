@@ -28,7 +28,9 @@ public class Pyramid extends GraphicsProgram {
 	public void run() {
 		/* You fill this in. */
 		
-		int n = 1;
+		int n = getWidth()/2;
+		int x= 0;
+		int y= getHeight();	
 		
 		for (int m = BRICKS_IN_BASE; m > 0; m--) {
 			
