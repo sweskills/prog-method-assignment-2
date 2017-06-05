@@ -35,7 +35,7 @@ public class Hailstone extends ConsoleProgram {
 		}
 			//
 		
-		println (" process of steps " + m + " steps to reach 1 ");
+		println (" The process took " + m + " steps to reach 1 ");
 			/* You fill this in */
 		
 	
