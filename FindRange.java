@@ -22,11 +22,14 @@ public class FindRange extends ConsoleProgram {
 			int min = 0;
 			
 			
-			
+			while (true){
 				int val = readInt(" ? ");
-				while (val != SENTINEL){
-				//
 				
+				//
+				if (val == SENTINEL)	{
+					println (" Sentinel is reached ");
+					break;
+				}
 				if (val > max){
 						max = val;
 					
@@ -34,13 +37,11 @@ public class FindRange extends ConsoleProgram {
 						min = val;
 				}
 				
-				}
+			}
 				println (" smallest: " + min);
 				
 				println (" largest: " + max);
-				
-				
-					println (" Sentinel is reached ");
+		
 		/* You fill this in */
 	}
 }
