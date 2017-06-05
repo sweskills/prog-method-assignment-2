@@ -18,12 +18,12 @@ public class Hailstone extends ConsoleProgram {
 				n = n/2;
 				println(+n+ " is even so i make n/2");
 			}
-			else 
+			if(n % 2 == 1){
 				n=(3*n)+1;
 				println( +n+" is even so i make 3n+1");
 		}
 		
-		
+		}
 		
 	}
 }
