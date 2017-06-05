@@ -39,7 +39,7 @@ public class Target extends GraphicsProgram {
 		GOval midcircle = new GOval(i, j, 46.8, 46.8);
 		
 		midcircle.setFilled(true);
-		midcircle.setColor(Color.RED);
+		midcircle.setColor(Color.white);
 		add(midcircle); //this creates a white circle of radius 46.8 pixels from reference point//
 		
 		double x = (getWidth() - 21.6) / 2;
