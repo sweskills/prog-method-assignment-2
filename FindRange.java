@@ -24,11 +24,10 @@ public class FindRange extends ConsoleProgram {
 		//initializes the maximum value
 		int max = 0;
 		
-		
 		int val = readInt(" ? ");
 		//iterates using while loop when the condition is true
 		while (val == Sentinel) {
-			
+
 		println("This is not valid, please enter a valid number");	
 			//prompts the user to enter a value
 			int val = readInt(" ? ");
