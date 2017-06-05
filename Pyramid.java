@@ -5,7 +5,7 @@
  
   public class Pyramid extends GraphicsProgram {
   	private static final int BRICKS_IN_BASE = 32;
-  	private static final int BRICK_WIDTH = 15;
+  	private static final int BRICK_WIDTH = 20;
   	private static final int BRICK_HEIGHT = 14;
   	public void run() {
  		 /* You fill this in. */
