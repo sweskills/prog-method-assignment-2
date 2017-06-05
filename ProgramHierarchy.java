@@ -13,7 +13,7 @@ import java.awt.*;
 public class ProgramHierarchy extends GraphicsProgram {	
 	public void run() {
 		add (new GRect(230,30,120,40));
-		add (new GLabel("Program",200,58));
+		add (new GLabel("Program",240,58));
 		
 		//
 		
@@ -30,7 +30,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 		//
 		
 		add (new GRect(450,150,130,40));
-		add (new GLabel("DialogProgram",45,178));
+		add (new GLabel("DialogProgram",350,178));
 		
 		
 		//
