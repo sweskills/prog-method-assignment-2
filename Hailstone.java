@@ -27,6 +27,17 @@ public class Hailstone extends ConsoleProgram {
 				int y = x / 2;
 				println ("so I take half:" + y);
 			}
+			
+			//
+			if (y % 2 != 0 ){
+				println ("+ x is odd");
+				int y = (3*x) + 1;
+				println ("so I make 3n+1:" + y);
+		}	else {
+				println ("+x is even");
+				int y = x / 2;
+				println ("so I take half:" + y);
+			}
 			/* You fill this in */
 		}
 	
