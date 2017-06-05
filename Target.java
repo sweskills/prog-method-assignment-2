@@ -30,8 +30,10 @@ public class Target extends GraphicsProgram {
 		middleCircle.setColor(Color.WHITE);
 		add (middleCircle);
 		
-		double e = (getWidth() - 0.3)/2;
-		double f = (getHeight() - 0.3)/2;
+		double e = (getWidth() - 21.6)/2;
+		double f = (getHeight() - 21.6)/2;
+		
+		GOval innerCircle = new Goval (e,f, 21.6, 21.6)
 		
 	}			
 				
