@@ -21,6 +21,12 @@ public class Target extends GraphicsProgram {
 		outterCircle.setFilled(true);
 		outterCircle.setColor(Color.RED);
 		add (outterCircle);
+		
+		double c = (getWidth() - 46.8)/2;
+		double d = (getHeight() - 46.8)/2;
+		
+		
+		
 	}			
 				
 }
