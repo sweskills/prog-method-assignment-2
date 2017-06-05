@@ -35,14 +35,14 @@ public class ProgramHierarchy extends GraphicsProgram {
 	
 	private void lowerRects(double centerX, double centerY) {
 		
-		GRect GraphicsProgramBox = new GRect(centerX - BOX_WIDTH - BOX_SPACING , centerY, BOX_WIDTH, BOX_HEIGHT);
-		add(GraphicsProgramBox);
+		GRect graphicsProgramBox = new GRect(centerX - BOX_WIDTH - BOX_SPACING , centerY, BOX_WIDTH, BOX_HEIGHT);
+		add(graphicsProgramBox);
 		
-		GRect ConsoleProgramBox = new GRect(centerX, centerY, BOX_WIDTH, BOX_HEIGHT);
-		add(ConsoleProgramBox);
+		GRect consoleProgramBox = new GRect(centerX, centerY, BOX_WIDTH, BOX_HEIGHT);
+		add(consoleProgramBox);
 		
-		GRect DialogProgramBox = new GRect(centerX + BOX_WIDTH + BOX_SPACING , centerY, BOX_WIDTH, BOX_HEIGHT);
-		add(DialogProgramBox);
+		GRect dialogProgramBox = new GRect(centerX + BOX_WIDTH + BOX_SPACING , centerY, BOX_WIDTH, BOX_HEIGHT);
+		add(dialogProgramBox);
 	}
 	
 	
