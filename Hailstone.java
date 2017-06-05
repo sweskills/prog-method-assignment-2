@@ -10,9 +10,8 @@ import acm.program.*;
 
 public class Hailstone extends ConsoleProgram {
 	public void run() {
-		/* You fill this in */
 		int steps = 0;
-		int number = readInt ("Enter a number:");
+		int number = readInt ("Input a number:");
 		while (number != 1) {
 			if (number % 2 == 1) {
 				int temp = 3 * number + 1;
@@ -30,4 +29,3 @@ public class Hailstone extends ConsoleProgram {
 	   println ("The process took" + steps + "steps to reach 1.");
 	}
 }
-
