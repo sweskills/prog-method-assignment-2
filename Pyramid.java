@@ -15,8 +15,8 @@
   import java.awt.*;
  
   public class Pyramid extends GraphicsProgram {
-  	private static final int BRICKS_IN_BASE = 32;
-  	private static final int BRICK_WIDTH = 20;
+  	private static final int BRICKS_IN_BASE = 30;
+  	private static final int BRICK_WIDTH = 18;
   	private static final int BRICK_HEIGHT = 14;
   	public void run() {
  		 /* You fill this in. */
