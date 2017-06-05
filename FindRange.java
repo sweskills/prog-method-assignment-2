@@ -19,9 +19,8 @@ public class FindRange extends ConsoleProgram {
 		for (int i = 0; i <= 10; i++){
 			int x = readInt("?");
 			
-					if (x==SENTINEL) break; 
-					
-						
+					if (x==SENTINEL){
+						println("Sentinel Reached"); break;
 					} 
 					
 						
@@ -31,5 +30,5 @@ public class FindRange extends ConsoleProgram {
 		}
 		/* You fill this in */
 	}
-
+}
 
