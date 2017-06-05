@@ -12,6 +12,7 @@ import java.awt.*;
 
 public class Target extends GraphicsProgram {	
 	public void run() {
-		/* You fill this in. */
+		
+		
 	}
 }
