@@ -1,11 +1,11 @@
 /*
- * File: Hailstone.java
- * Name: 
- * Section Leader: 
- * --------------------
- * This file is the starter file for the Hailstone problem.
- */
 
+ * File: Hailstone.java
+ * Name: Enoch Mbaebie
+ * Program: Sweskill Tech Talent Academy
+ * -------------------------------------
+ */
+  /* Hail Stone Sequence Console Program*/
 import acm.program.*;
 
 public class Hailstone extends ConsoleProgram {
