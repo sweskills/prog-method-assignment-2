@@ -14,7 +14,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 	
 	private static final double BOX_WIDTH = 150;
 	private static final double BOX_HEIGHT = 50;
-	private static final double BOX_SPACING = 30;
+	private static final double BOX_SPACING = 20;
 	
 	public void run() {
 		
