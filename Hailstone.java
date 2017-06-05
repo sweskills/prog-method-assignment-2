@@ -27,6 +27,7 @@ public class Hailstone extends ConsoleProgram {
 				int y = x / 2;
 				println ("so I take half:" + y);
 			}
+			int y = x;
 			/* You fill this in */
 		}
 	
