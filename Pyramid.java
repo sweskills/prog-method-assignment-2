@@ -28,13 +28,17 @@ public class Pyramid extends GraphicsProgram {
 	public void run() {
 		/* You fill this in. */
 		
-		putAllBricks();
-		for (int i = 1; i <= 14; i--);
-		{
-		     System.out.print(i+" ");
+		int n = 1;
 		
-		System.out.printIn();
-	
-	}
+		for (int m = BRICKS_IN_BASE; m > 0; m--) {
+			
+		addCenteredRowOfBricks(int m, int n) {	
+		n++
+		}
+		
+		private void (addCenteredRowOfBricks()){
+			
+		}
+		}
 }
 
