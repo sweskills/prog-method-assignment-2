@@ -23,6 +23,7 @@ public class Target extends GraphicsProgram {
 	 GOval second = new GOval(60,40,80,80);
 	 second.setFillColor(Color.WHITE);
 	 second.setFilled(true);
+	 second.setFillColor(Color.WHITE);
 	 second.isVisible();
 	 add (second);
 	 
@@ -30,6 +31,7 @@ public class Target extends GraphicsProgram {
 	 GOval third = new GOval(80,60,40,40);
 	 third.setColor(Color.RED);
 	 third.setFilled(true);
+	 third.setFillColor(Color.RED);
 	 add (third);
 	 
 	 
