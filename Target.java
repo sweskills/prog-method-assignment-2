@@ -31,7 +31,7 @@ public class Target extends GraphicsProgram {
 		add (middleCircle);
 		
 		double e = (getWidth() - 0.3)/2;
-		
+		double f = (getHeight() - 0.3)/2;
 		
 	}			
 				
