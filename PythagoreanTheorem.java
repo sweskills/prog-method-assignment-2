@@ -14,7 +14,9 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		double a = readDouble ("enter the value of a");
 		double b = readDouble ("enter the value of b");
 	
-			
+		System.out.print ("enter a");
+		a = ;
+		
 				
 	}
 }
