@@ -17,9 +17,7 @@
 			int min = 0;
 			int max = 0;
 			
-			int firstVal = readInt();
-			if(firstVal == Sentinel);{
-				println("The value entered is Invalid");
+			
 				{
 			while(true){
 				
@@ -47,4 +45,4 @@
 			
 			}	
 			}
-			}
+			
