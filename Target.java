@@ -28,13 +28,11 @@ public class Target extends GraphicsProgram {
 		double y = (getHeight()/2) -(radius/2);
 		
 		GOval myOval = new GOval (x,y,radius,radius);
-		myOval.setFilled(false);
+		myOval.setFilled(true);
 		myOval.setFillColor(Color.RED);
-		
 		add(myOval);
 		
 		//add(myOval);
-		
 	}
 	
 	public void secondCircle(){
