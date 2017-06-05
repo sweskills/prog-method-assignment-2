@@ -19,7 +19,7 @@ public class Target extends GraphicsProgram {
 	Boolean Pascaline;
 	
 	public void run() {
-		
+		firstCircle();
 		
 	}
 	
