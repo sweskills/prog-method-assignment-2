@@ -37,6 +37,10 @@ public class Pyramid extends GraphicsProgram {
 		}
 		
 		private void addCenteredRowOfBricks(double m, double n) {
+		
+			double x = getHeight() - n*BRICK_HEIGHT;
+			addBrick(x,y);
+		}
 			
 		}
 		}
