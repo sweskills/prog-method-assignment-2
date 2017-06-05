@@ -16,7 +16,6 @@ public class Target extends GraphicsProgram {
 	private static int inch = 72;
 	//private static int 
 	
-	Boolean Pascaline;
 	
 	public void run() {
 		firstCircle();
@@ -29,9 +28,12 @@ public class Target extends GraphicsProgram {
 		double y = (getHeight()/2) -(radius/2);
 		
 		GOval myOval = new GOval (x,y,radius,radius);
-		myOval.setFilled(true);
+		myOval.setFilled(false);
 		myOval.setFillColor(Color.RED);
+		
 		add(myOval);
+		
+		//add(myOval);
 		
 	}
 	
