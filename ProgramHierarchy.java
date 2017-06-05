@@ -23,7 +23,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 		drawSubclasses(centerX,centerY);
 		drawSuperclass(centerX,centerY);
 		
-		GLine ConsoleToProgram = new GLine(centerX + BOX_WIDTH/2, centerY, centerX + BOX_WIDTH/2, centerY - 2*BOX_SPACING);
+		GLine ConsoleToProgram = new GLine(centerX + BOX_WIDTH/2, centerY, centerX + BOX_WIDTH/2, centerY - 2 * BOX_SPACING);
 		add(ConsoleToProgram);
 	}
 	
@@ -36,7 +36,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 		add(DialogProgramBox);
 	}
 	private void drawSuperclass(double centerX, double centerY) {
-		GRect ProgramBox = new GRect(centerX, centerY - BOX_HEIGHT - 2*BOX_SPACING, BOX_WIDTH, BOX_HEIGHT);
+		GRect ProgramBox = new GRect(centerX, centerY - BOX_HEIGHT - 2 * BOX_SPACING, BOX_WIDTH, BOX_HEIGHT);
 		add(ProgramBox);
 		
 	}
