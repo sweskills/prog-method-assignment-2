@@ -14,19 +14,27 @@ import acm.graphics.*;
 import acm.program.*;
 import java.awt.*;
 
+
 public class Pyramid extends GraphicsProgram {
 
 /** Width of each brick in pixels */
-	private static final int BRICK_WIDTH = 30;
+	private static final int BRICK_WIDTH = 50; 
 
-/** Width of each brick in pixels */
-	private static final int BRICK_HEIGHT = 12;
+/** Height of each brick in pixels */
+	private static final int BRICK_HEIGHT = 30;
 
 /** Number of bricks in the base of the pyramid */
 	private static final int BRICKS_IN_BASE = 14;
-	
-	public void run() {
-		/* You fill this in. */
+		
+	public void run() {	
+			double y = (getHeight() - BRICK_HEIGHT);
+			for (int i = 0; i < BRICKS_IN_BASE ; i++) {
+				double x = (getWidth() - BRICK_WIDTH*(BRICKS_IN_BASE-i)) / 2;
+				for (int j = 0; j < BRICKS_IN_BASE-i ; j++) {
+					pause(10);
+					add(new GRect(BRICK_WIDTH , BRICK_HEIGHT), x+(BRICK_WIDTH*j), y-(BRICK_HEIGHT*i));
+				}
+			}
 	}
 }
 
