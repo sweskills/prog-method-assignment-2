@@ -33,7 +33,7 @@ public class Hailstone extends ConsoleProgram {
 			} else {
 				
 				/*otherwise this*/
-				println (x + " is odd, so I make 3n + l: " + (3 * x + 1));
+				println (x + " is odd, so I make 3x + l: " + (3 * x + 1));
 				
 				x = 3 * x + 1;
 				
