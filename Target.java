@@ -30,6 +30,8 @@ public class Target extends GraphicsProgram {
 		middleCircle.setColor(Color.WHITE);
 		add (middleCircle);
 		
+		
+		
 	}			
 				
 }
