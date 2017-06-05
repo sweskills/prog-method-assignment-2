@@ -1,13 +1,13 @@
 /*
  * File: FindRange.java
- * Name: 
- * Section Leader: 
- * --------------------
+ * Name: Enoch Mbaebie
+ * Program: Sweskills Tech Talent Academy
+ * --------------------------------------
  * This file is the starter file for the FindRange problem.
  */
+/* Sentinel Console Program that read Integers*/
 
 import acm.program.*;
-/* Sentinel Console Program that read Integers*/
 public class FindRange extends ConsoleProgram {
 	private static final int SENTINEL_VALUE = 0;
 	public void run() {
