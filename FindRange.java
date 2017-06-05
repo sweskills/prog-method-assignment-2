@@ -27,14 +27,14 @@ public class FindRange extends ConsoleProgram {
 				
 				//
 				if (val == SENTINEL)	{
-					
+					println (" Sentinel is reached ");
 					break;
 				}
 				if (val > max){
-						val = max;
+						max = val;
 					
 				}	else if(val < min) {
-						val = min;
+						min = val;
 				}
 				
 			}
