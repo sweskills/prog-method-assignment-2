@@ -31,7 +31,7 @@ public class Target extends GraphicsProgram {
 		r.isVisible();
 		add(r);
 		
-		GOval s = new GOval (100,60,80,80);
+		GOval s = new GOval (90,60,80,80);
 		s.setColor(Color.RED);
 		s.setFillColor (Color.RED);
 		s.setFilled(true);
