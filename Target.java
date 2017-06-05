@@ -30,6 +30,7 @@ public class Target extends GraphicsProgram {
 		middleCircle.setColor(Color.WHITE);
 		add (middleCircle);
 		
+		double e = (getWidth() - 0.3)/2;
 		
 		
 	}			
