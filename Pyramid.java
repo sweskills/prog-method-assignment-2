@@ -4,9 +4,9 @@
   import java.awt.*;
  
   public class Pyramid extends GraphicsProgram {
-  	private static final int BRICKS_IN_BASE = 14;
-  	private static final int BRICK_WIDTH = 30;
-  	private static final int BRICK_HEIGHT = 12;
+  	private static final int BRICKS_IN_BASE = 18;
+  	private static final int BRICK_WIDTH = 32;
+  	private static final int BRICK_HEIGHT = 15;
   	public void run() {
  		 /* You fill this in. */
  		double x = (getWidth() - BRICKS_IN_BASE * BRICK_WIDTH) / 2;
