@@ -44,7 +44,7 @@ public class FindRange extends ConsoleProgram {
 			//and then assign it as the smallest
 			} else if (val < min) {
 				min = val;
-			}
+			} 
 		}
 		
 		//prints out the smallest number 
