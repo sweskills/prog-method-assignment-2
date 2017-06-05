@@ -16,7 +16,7 @@ public class Target extends GraphicsProgram {
 	private static final double INNER = 0.3;
 	public void run() {
 	//
-		GOval p = new GOval (80,60,40,40);
+		GOval p = new GOval (40,20,120,120);
 		p.setColor(Color.RED);
 		p.setFillColor (Color.RED);
 		p.sendToBack();
