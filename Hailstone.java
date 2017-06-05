@@ -13,7 +13,7 @@ public class Hailstone extends ConsoleProgram {
 	public void run() {
 		
 		
-		int times = 100;
+		
 		int x = readInt ("Enter a number:");
 		
 		//
