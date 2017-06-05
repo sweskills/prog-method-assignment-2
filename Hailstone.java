@@ -24,7 +24,7 @@ public class Hailstone extends ConsoleProgram {
 		}	else {
 			println ("+x is even");
 			int n = x / 2;
-			println ("soI take half:" + n);
+			println ("so I take half:" + n);
 			}
 			/* You fill this in */
 		}
