@@ -11,6 +11,24 @@ import acm.program.*;
 public class Hailstone extends ConsoleProgram {
 	public void run() {
 		/* You fill this in */
+		int x = readInt("?");
+		int y = 0;
+		
+		while (x != 1) {
+			
+			if (x % 2 == 0) {
+				
+				println( x+ " is even, so i take half: " + x/2 );
+				y++;
+				
+			}
+			else{
+				println( x+ " is odd, so i compute 3x + 1: " + 3 * x + 1 );
+				y++;
+			}
+			
+			println ("It took " + y + " to arrive at 1");
+		}
 	}
 }
 
