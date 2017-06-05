@@ -33,7 +33,6 @@ public class Hailstone extends ConsoleProgram {
 				x = 3 * x + 1;
 				y++;
 				
-				println("...");
 			}
 			
 		}
