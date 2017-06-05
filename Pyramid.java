@@ -36,7 +36,7 @@ public class Pyramid extends GraphicsProgram {
 			int level_counter = 1;
 			int number_of_bricks = (BRICKS_IN_BASE) + (- 1 + 1);
 			
-			int x= (getWidth()/2) - (number_of_bricks/2);
+			int x= (getWidth()/2) - (BRICK_WIDTH * bricksInRow) /2;
 			int y = (getHeight()) - (number_of_bricks/2);
 			
 			GRect brick = new GRect (x,y, BRICK_WIDTH, BRICK_HEIGHT);
