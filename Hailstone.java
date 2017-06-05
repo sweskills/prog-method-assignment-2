@@ -15,9 +15,9 @@ public class Hailstone extends ConsoleProgram {
 		
 		int times = 100;
 		int x = readInt ("Enter a number:");
-		int n = x ;
+		
 		//
-		for (int i = n; i < 1; i++){
+		for (int i = getY(); i < 1; i++){
 			if (x % 2 != 0 ){
 				println ("+ x is odd");
 				int y = (3*x) + 1;
