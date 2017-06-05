@@ -13,26 +13,31 @@ public class FindRange extends ConsoleProgram {
 	
 	//
 		public void run() {
-	
-		int n = readInt ("?");
-		int m = 0;
-		
-		while (n != 1){
-			if (n % 2 == 0){
-				println (n + " is even, so i take half: " + n/2 );
-				n /= 2;
-				m++;
-			}	else {
-				println (n + " ia odd, so I make 3n + 1: " + ((3*n) +1));
-				n = (3 * n) + 1;
-				m++;
-			}
-						
-						
+			
+			
+			println("this program output the smallest and largest number");
+			int max = 0;
+			int min = 0;
+			while (true){
+				int val = readInt("?");
 				
+				//
+				if (val == SENTINEL)	{
+					println (" Sentinel is reached "); 
+					break;
+				}
+				if (val > max){
+					val = max;
+					
+				}	else if(val < min) {
+					val = min;	
+				}
 				
+				println (" smallest: " + min);
+				println (" largest: " + max);
 		}
 		/* You fill this in */
 	}
 }
 
+			
