@@ -12,15 +12,16 @@ import java.awt.*;
 
 public class Target extends GraphicsProgram {
 	
+	/*runs the program*/
 	public void run() {
 		
 		/*conversion from inches to pixels*/
-		double inchToPix = 72;
+		double inchToPixel = 72;
 		
 		/*set radii and center coordinates*/
-		double outerRad = 1 * inchToPix;
-		double middleRad = 0.65 * inchToPix;
-		double innerRad = 0.30 * inchToPix;
+		double outerRad = 1 * inchToPixel;
+		double middleRad = 0.65 * inchToPixel;
+		double innerRad = 0.30 * inchToPixel;
 		double centerX = getWidth()/2;
 		double centerY = getHeight()/2;
 		
