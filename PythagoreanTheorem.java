@@ -1,15 +1,14 @@
 /*
+
  * File: PythagoreanTheorem.java
 
  * Name: Enoch Mbaebie
- * Sweskills Facilitator: Azeez 
- * -----------------------------
- * This file is the starter file for the PythagoreanTheorem problem.
+ * Program: Sweskills Tech Talent Academy 
+ * --------------------------------------
  */
+/* Console Program for Pythagorean Computation*/
 
 import acm.program.*;
-
-/* Console Program for Pythagorean Computation*/
 
 public class PythagoreanTheorem extends ConsoleProgram {
 	public void run() {
