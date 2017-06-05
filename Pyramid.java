@@ -33,7 +33,8 @@ public class Pyramid extends GraphicsProgram {
 	}
 	private void buildPyramid(){
 		for (int i = 0; i<14; i++);{
-			
+			int level_counter = 1;
+			int number_of_bricks = (BRICKS_IN_BASE) + (- 1 + 1)
 		}
 	}
 }
