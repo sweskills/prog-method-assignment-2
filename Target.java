@@ -28,7 +28,7 @@ public class Target extends GraphicsProgram {
 		double x = (getWidth()/2)- (radius/2);
 		double y = (getHeight()/2) -(radius/2);
 		
-		GOval myOval = new GOval (110,110,101,110);
+		GOval myOval = new GOval (x,y,radius,radius);
 		add(myOval);
 		
 	}
