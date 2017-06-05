@@ -30,7 +30,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 		//
 		
 		add (new GRect(450,150,130,40));
-		add (new GLabel("DialogProgram",500,178));
+		add (new GLabel("DialogProgram",490,178));
 		
 		
 		//
