@@ -17,7 +17,7 @@ public class Hailstone extends ConsoleProgram {
 		int x = readInt ("Enter a number:");
 		
 		//
-		for (int i = getY(); i < 1; i++){
+		while (x > 1){
 			if (x % 2 != 0 ){
 				println ("+ x is odd");
 				int y = (3*x) + 1;
