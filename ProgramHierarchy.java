@@ -30,13 +30,9 @@ public class ProgramHierarchy extends GraphicsProgram {
 		
 		add(Rect);
 		
-		GLabel label1 = new GLabel("Program");
+		GLabel label1 = new GLabel("Program", (x + 50), (y + 30));
+		
 		add(label1);
-		double a = ((x - label1.getWidth()) / 2 );
-		double b = ((y - label1.getAscent()) / 2);
-		
-		label1.setLocation( a, b);
-		
 		
 		GLine Line1 = new GLine((x + 75), (y+50), (x+75), (y+100));
 		
