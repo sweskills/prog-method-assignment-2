@@ -11,15 +11,10 @@ import acm.program.*;
 public class PythagoreanTheorem extends ConsoleProgram {
 	public void run() {
 		
-		double a = 1;
-		double b = 2;
-		double c = 3;
-		
-		
-				
-				
-		
-		
+		double a = readDouble ("enter the value of a");
+		double b = readDouble ("enter the value of b");
+	
+			
 				
 	}
 }
