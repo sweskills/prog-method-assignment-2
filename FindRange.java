@@ -22,21 +22,23 @@ public class FindRange extends ConsoleProgram {
 			
 			
 			while (true){
-				int val = readInt("?");
+				int val = readInt(" ? ");
 				
 				//
 				if (val == SENTINEL)	{
+					println (" Sentinel is reached ");
 					break;
 				}
 				if (val > max){
-					val = max;
+						val = max;
 					
 				}	else if(val < min) {
-					val = min;	
+						val = min;
 				}
 				
 			}
 				println (" smallest: " + min);
+				
 				println (" largest: " + max);
 		
 		/* You fill this in */
