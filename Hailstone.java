@@ -14,16 +14,16 @@ public class Hailstone extends ConsoleProgram {
 		
 		
 		int times = 100;
-		int n = readInt ("Enter a number:");
+		int x = readInt ("Enter a number:");
 		//
 		
-		if (n % 2 != 0 ){
+		if (x % 2 != 0 ){
 			println ("+ x is odd");
-			int n1 = (3*n) + 1;
+			int n = (3*x) + 1;
 			println ("so I make 3n+1:" + n);
 		}	else {
 			println ("+x is even");
-			int n1 = n / 2;
+			int n = x / 2;
 			println ("so I take half:" + n);
 			}
 			/* You fill this in */
