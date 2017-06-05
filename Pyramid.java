@@ -11,7 +11,7 @@
  		 /* You fill this in. */
  		double x = (getWidth() - BRICKS_IN_BASE * BRICK_WIDTH) / 2;
  		double y = getHeight() - BRICK_HEIGHT;
- 	for (int row = 0; row < BRICKS_IN_BASE; row++) {
+ 		for (int row = 0; row < BRICKS_IN_BASE; row++) {
  			drawRow(x, y, (BRICKS_IN_BASE - row));
  			y -= BRICK_HEIGHT;
  			x += BRICK_WIDTH / 2;
