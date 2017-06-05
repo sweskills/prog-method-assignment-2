@@ -29,8 +29,8 @@ public class Hailstone extends ConsoleProgram {
 				y++;
 			}
 			
-			println ("It took " + y + " to arrive at 1");
 		}
+		println ("It took " + y + " to arrive at 1");
 	}
 }
 
