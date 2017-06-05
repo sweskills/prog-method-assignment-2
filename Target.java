@@ -31,7 +31,7 @@ public class Target extends GraphicsProgram {
 	 third.setColor(Color.RED);
 	 third.setFilled(true);
 	 add (third);
-;	 
+	 
 	 
 	 
 		/* You fill this in. */
