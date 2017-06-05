@@ -32,8 +32,8 @@ public class ProgramHierarchy extends GraphicsProgram {
 		
 		GLabel label1 = new GLabel("Program");
 		add(label1);
-		double a = ((WIDTH - label1.getWidth()) / 2 );
-		double b = ((HEIGHT - label1.getAscent()) / 2);
+		double a = ((x - label1.getWidth()) / 2 );
+		double b = ((y - label1.getAscent()) / 2);
 		
 		label1.setLocation( a, b);
 		
