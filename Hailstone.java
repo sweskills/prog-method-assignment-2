@@ -23,7 +23,7 @@ public class Hailstone extends ConsoleProgram {
 				
 			}
 			else{
-				println( x+ " is odd, so i compute 3x + 1: " + 3 * x + 1 );
+				println( x+ " is odd, so i compute 3x + 1: " + (3 * x + 1) );
 				y++;
 			}
 			
