@@ -18,6 +18,7 @@ public class Target extends GraphicsProgram {
 		double b = (getHeight() - 72)/2;
 		
 		GOval outterCircle = new GOval(a,b,72,72);
+		outterCircle.setFilled(true);
 		add (outterCircle);
 	}			
 				
