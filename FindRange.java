@@ -17,7 +17,7 @@
 			int min = 0;
 			int max = 0;
 			
-			
+			//this line of code test for the validity of the num entered.
 				{
 			while(true){
 				
