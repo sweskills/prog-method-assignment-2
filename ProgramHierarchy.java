@@ -11,6 +11,11 @@ import acm.program.*;
 import java.awt.*;
 
 public class ProgramHierarchy extends GraphicsProgram {	
+	
+	private static final double BOX_WIDTH = 140;
+	private static final double BOX_HEIGHT = 40;
+	private static final double BOX_SPACING = 25;
+	
 	public void run() {
 		
 		double centerX = getWidth()/2 - BOX_WIDTH/2; 
