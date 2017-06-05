@@ -32,11 +32,10 @@ public class Hailstone extends ConsoleProgram {
 				n = (3 * n) + 1;
 				m++;
 			}
-			
+		}
 			//
-			println (" process of steps " + m + " steps to reach 1 ");
 		
-			}
+		println (" process of steps " + m + " steps to reach 1 ");
 			/* You fill this in */
 		
 	
