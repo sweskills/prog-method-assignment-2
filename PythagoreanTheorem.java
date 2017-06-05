@@ -9,9 +9,10 @@
 
 import acm.program.*;
 
+/* Console Program for Pythagorean Computation*/
+
 public class PythagoreanTheorem extends ConsoleProgram {
 	public void run() {
-		/* Console Program for Pythagorean Computation*/
 		println ("Input Number for computation.");
 		int a = readInt ("a:");
 		int b = readInt ("b:");
