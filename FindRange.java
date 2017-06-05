@@ -31,5 +31,5 @@ public class FindRange extends ConsoleProgram {
 		}
 		/* You fill this in */
 	}
-}
+
 
