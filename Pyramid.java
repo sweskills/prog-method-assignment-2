@@ -27,7 +27,7 @@ public class Pyramid extends GraphicsProgram {
 	 
 	 public void run() {
 		 int initBrick = 30;
-			int initPlacement = (getWidth() - BRICK_WIDTH) / 2;
+			int initPlacement = (getWidth() + BRICK_WIDTH) / 2;
 		
 			for (int i = 0; i < initBrick; i += 30)
 			{
