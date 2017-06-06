@@ -15,11 +15,11 @@ public class Hailstone extends ConsoleProgram {
 		
 		while(n>1){ 
 			if((n % 2) == 0){
-				n = n/2;
+				n = (n/2);
 				println(+n+ " is even so i make half: n/2");
 			}
-			if((n % 2) == 1){
-				n=(3*n)+1;
+			else if((n % 2) == 1){
+				n=((3*n)+1);
 				println( +n+" is even so i make 3n+1");
 		}
 		
