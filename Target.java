@@ -20,8 +20,8 @@ public class Target extends GraphicsProgram {
 	double outerRad = OUTER * InchesToRadius;
 	double middleRad = MIDDLE * InchesToRadius;
 	double innerRad = INNER * InchesToRadius;
-	double centerX = getWidth();
-	double centerY = getHeight();
+	double centerX = getWidth()/2;
+	double centerY = getHeight()/2;
 			
 	
 	public void run() {
