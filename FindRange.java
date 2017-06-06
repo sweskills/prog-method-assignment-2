@@ -25,9 +25,9 @@ public class FindRange extends ConsoleProgram {
 		
 		int min = 0;
 		int max = 0;
-		
+		println("Enter a value");
 		while (true){
-			println("Enter a value");
+			
 			int val = readInt();
 			if (val == SENTINEL){
 				break;
