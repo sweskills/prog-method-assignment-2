@@ -31,6 +31,7 @@ public class FindRange extends ConsoleProgram {
 			int val = readInt();
 			if (val == SENTINEL){
 				break;
+				
 			}
 			else if(val < min){
 				min = val;
