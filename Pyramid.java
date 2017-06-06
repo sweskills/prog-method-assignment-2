@@ -14,24 +14,24 @@ import acm.program.*;
 import java.awt.*;
  
 public class Pyramid extends GraphicsProgram {
-  private static final int BRICK_WIDTH = 30;
-  private static final int BRICK_HEIGHT = 12;
-  private static final int BRICKS_IN_BASE = 14;
+  private static final int brickWidth = 30;
+  private static final int brickHeight = 12;
+  private static final int brickInBase = 14;
  
   public void run() {
         putAllBricks();
     }
     private void putAllBricks()
     {
-        for( int row = 0; row < BRICKS_IN_BASE; row++ ){
+        for( int row = 0; row < brickInBase; row++ ){
         
-            int bricksInRow = BRICKS_IN_BASE - row;
+            int bricksInRow = brickInBase - row;
  
-            for( int brickNum = 0; brickNum < bricksInRow; brickNum++ ){
-            int x = ( getWidth()/2 ) - (BRICK_WIDTH * bricksInRow) / 2 + brickNum * BRICK_WIDTH;
-            int y = getHeight() - BRICK_HEIGHT * (row+1);
+            for( int brickNumber = 0; brickNumber < bricksInRow; brickNumber++ ){
+            int x = ( getWidth()/2 ) - (brickWidth * bricksInRow) / 2 + brickNumber * brickWidth;
+            int y = getHeight() - brickHeight * (row+1);
  
-                GRect brick = new GRect( x , y , BRICK_WIDTH , BRICK_HEIGHT );
+                GRect brick = new GRect( x , y , brickWidth , brickHeight );
                 add(brick);
             }
         }
