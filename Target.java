@@ -18,7 +18,7 @@ public class Target extends GraphicsProgram {
 		add(oval1);
 		
 		
-		GOval oval2 = new GOval(310, 148, 49, 49);
+		GOval oval2 = new GOval(310, 150, 49, 49);
 		oval2.setFilled(true);
 		oval2.setFillColor(Color.WHITE);
 		add(oval2);
