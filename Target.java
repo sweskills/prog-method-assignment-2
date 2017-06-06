@@ -12,13 +12,11 @@ import java.awt.*;
 
 public class Target extends GraphicsProgram {
 	
-	private static final double OUTER = 1.0;
-	private static final double MIDDLE = 0.65;
-	private static final double INNER = 0.30;
+	
 	//
 	double InchesToRadius = 72;
-	double outerRad = 1 * InchesToRadius;
-	double middleRad = 0.65 * InchesToRadius;
+	double outerRad = 1.0 * InchesToRadius;
+	double middleRad = 0.6 * InchesToRadius;
 	double innerRad = 0.3 * InchesToRadius;
 	double centerX = getWidth()/2;
 	double centerY = getHeight()/2;
