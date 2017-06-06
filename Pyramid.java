@@ -1,8 +1,8 @@
 /*
  * File: Pyramid.java
- * Name: 
- * Section Leader: 
- * ------------------
+ * Name: Enoch Mbaebie
+ * Sweskills Tech Talent Academy
+ * -----------------------------
  * This file is the starter file for the Pyramid problem.
  * It includes definitions of the constants that match the
  * sample run in the assignment, but you should make sure
@@ -27,6 +27,8 @@ public class Pyramid extends GraphicsProgram {
 	
 	public void run() {
 		/* You fill this in. */
+		double x = (getWidth()) - BRICKS_IN_BASE * BRICK_WIDTH) / 2;
+		double y = getHeight()  - BRICKS_IN_BASE * BRICK_H
 	}
 }
 
