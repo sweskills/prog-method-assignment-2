@@ -37,7 +37,8 @@ public class Pyramid extends GraphicsProgram {
 				add(brick);
 			}
 			
-			//for (int i = 0; i < 60; i += 30)
+			//
+			for (int i = 0; i < 60; i += 30)
 			{
 				int initX = i;
 				int x = (initX + initPlacement) - 15;
