@@ -10,7 +10,13 @@ import acm.program.*;
 
 public class Hailstone extends ConsoleProgram {
 	public void run() {
-		/* You fill this in */
+		
+		
+		int inputNumber = readInt("?");
+		
+		if (inputNumber != 0) {
+			//for (int i = 0; i<)
+		}
 	}
 }
 
