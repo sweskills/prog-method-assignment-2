@@ -16,7 +16,7 @@ public class Target extends GraphicsProgram {
 	//
 	double InchesToRadius = 72;
 	double outerRad = 1.0 * InchesToRadius;
-	double middleRad = 0.6 * InchesToRadius;
+	double middleRad = 0.65 * InchesToRadius;
 	double innerRad = 0.3 * InchesToRadius;
 	double centerX = getWidth()/2;
 	double centerY = getHeight()/2;
