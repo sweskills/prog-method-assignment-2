@@ -42,6 +42,9 @@ public class Pyramid extends GraphicsProgram {
 				add(myBrick);
 						x += BRICK_WIDTH;
 			}
+			totalBrick--;
+			numRow--;
+			y-=BRICK_HEIGHT;
 		}
 		
 		
