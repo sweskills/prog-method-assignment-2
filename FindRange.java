@@ -9,6 +9,9 @@
 import acm.program.*;
 
 public class FindRange extends ConsoleProgram {
+	
+	private static int SENTINEL = 0;
+	
 	public void run(){
 		 println("This program finds the largest and smallest numbers.");
          
