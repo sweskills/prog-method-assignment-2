@@ -21,9 +21,8 @@ public class FindRange extends ConsoleProgram {
 			
 		println("Enter a value");
 		int val = readInt();
-		if (val == SENTINEL){
-			println("Number not valid");
-		}
+		
+		
 		
 		int min = 0;
 		int max = 0;
