@@ -27,7 +27,7 @@ public class Target extends GraphicsProgram {
 	public void run() {
 		
 		///
-		GOval spar = new GOval(centerX - outerRad, centerY - outerRad, 2 * outerRad, 2 * outerRad);
+		GOval spar = new GOval(centerX, centerY, 2 * outerRad, 2 * outerRad);
 		spar.setColor(Color.RED);
 		spar.setFillColor(Color.RED);
 		spar.setFilled(true);
