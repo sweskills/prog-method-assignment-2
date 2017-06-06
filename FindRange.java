@@ -15,7 +15,7 @@ public class FindRange extends ConsoleProgram {
 		 * any set of numbers until the Sentinel
 		 * value is reached 
 		 */
-		println("This program finds displays the minimum and");
+		println("This program finds the minimum and");
 		println("maximum values in a given set of numbers");
 		
 			
