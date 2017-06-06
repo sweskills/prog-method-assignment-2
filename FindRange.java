@@ -19,8 +19,7 @@ public class FindRange extends ConsoleProgram {
 		println("maximum values in a given set of numbers");
 		
 			
-		println("Enter a value");
-		int val = readInt();
+		
 		
 		
 		
@@ -28,6 +27,8 @@ public class FindRange extends ConsoleProgram {
 		int max = 0;
 		
 		while (true){
+			println("Enter a value");
+			int val = readInt();
 			if (val == SENTINEL){
 				break;
 			}
