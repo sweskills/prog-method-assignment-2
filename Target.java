@@ -17,9 +17,9 @@ public class Target extends GraphicsProgram {
 	private static final double INNER = 0.30;
 	//
 	double InchesToRadius = 72;
-	double outerRad = OUTER * InchesToRadius;
-	double middleRad = MIDDLE * InchesToRadius;
-	double innerRad = INNER * InchesToRadius;
+	double outerRad = 1 * InchesToRadius;
+	double middleRad = 0.65 * InchesToRadius;
+	double innerRad = 0.3 * InchesToRadius;
 	double centerX = getWidth()/2;
 	double centerY = getHeight()/2;
 			
@@ -27,7 +27,7 @@ public class Target extends GraphicsProgram {
 	public void run() {
 		
 		///
-		GOval spar = new GOval(centerX, centerY, 2 * outerRad, 2 * outerRad);
+		GOval spar = new GOval(centerX - outerRad, centerY - outerRad, 2 * outerRad, 2 * outerRad);
 		spar.setColor(Color.RED);
 		spar.setFillColor(Color.RED);
 		spar.setFilled(true);
