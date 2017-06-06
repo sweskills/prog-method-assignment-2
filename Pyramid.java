@@ -30,7 +30,7 @@ public class Pyramid extends GraphicsProgram {
 			int initPlacement = (getWidth() - BRICK_WIDTH) / 2;
 		
 	
-				GRect brick = new GRect(x, 0, BRICK_WIDTH, BRICK_HEIGHT);
+				GRect brick = new GRect(getWidth() / 2, getHeight( )/ 2, BRICK_WIDTH, BRICK_HEIGHT);
 				add(brick);
 			
 
