@@ -14,7 +14,7 @@ public class Target extends GraphicsProgram {
 	
 	private static final double OUTER = 1.0;
 	private static final double MIDDLE = 0.65;
-	private static final double INNER = 0.3;
+	private static final double INNER = 0.30;
 	//
 	double InchesToRadius = 72;
 	double outerRad = OUTER * InchesToRadius;
