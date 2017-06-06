@@ -13,7 +13,7 @@ public class Hailstone extends ConsoleProgram {
 		println("Enter n: ");
 		int n = readInt("n: ");
 		
-		while(n>0){
+		while(n>1){
 			if(n % 2 == 0){
 				n = n/2;
 				println(+n+ " is even so i make n/2");
