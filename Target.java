@@ -29,7 +29,7 @@ public class Target extends GraphicsProgram {
 		spar.setColor(Color.RED);
 		spar.setFillColor(Color.RED);
 		spar.setFilled(true);
-		
+		spar.sendToBack();
 		add (spar);
 		
 		// 
