@@ -27,6 +27,20 @@ public class FindRange extends ConsoleProgram {
 		
 		int min = 0;
 		int max = 0;
+		
+		while (true){
+			if (val == SENTINEL){
+				break;
+			}
+			else if(val < min){
+				min = val;
+			}
+			else if(val > max){
+				max = val;
+			}
+		}
+		println("The minimum value is " +min);
+		println("The maximum value is " +max);
 	}
 	private static final int SENTINEL = 20;
 }
