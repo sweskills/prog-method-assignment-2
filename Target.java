@@ -23,7 +23,7 @@ public class Target extends GraphicsProgram {
 		oval2.setFillColor(Color.WHITE);
 		add(oval2);
 		
-		GOval oval3 = new GOval(320, 155, 34, 34);
+		GOval oval3 = new GOval(315, 155, 34, 34);
 		oval3.setFilled(true);
 		oval3.setFillColor(Color.RED);
 		add(oval3);
