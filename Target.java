@@ -11,32 +11,42 @@ import acm.program.*;
 import java.awt.*;
 
 public class Target extends GraphicsProgram {	
-	public void run() {
-		///
-	 GOval first = new GOval(40,20,120,120);
-	 first.setColor(Color.RED);
-	 first.setFillColor(Color.RED);
-	 first.setFilled(true);;
-	 first.sendToBack();
-	 add (first);
-	 
-	 //
-	 GOval second = new GOval(60,40,80,80);
-	 second.setFillColor(Color.WHITE);
-	 second.setFilled(true);
-	 second.setFillColor(Color.WHITE);
-	 second.isVisible();
-	 add (second);
-	 
-	 //
-	 GOval third = new GOval(80,60,40,40);
-	 third.setColor(Color.RED);
-	 third.setFilled(true);
-	 third.setFillColor(Color.RED);
-	 add (third);
+	public void run(){
+		        /* You fill this in. */
+		        double a = (getWidth() - 72) / 2;
+		        double b = (getHeight() - 72) / 2;
+		       
+		        GOval outtercircle = new GOval(a, b, 72, 72);
+		       
+		        outtercircle.setFilled(true);
+		        outtercircle.setColor(Color.RED);
+		       
+		        add(outtercircle);
+		       
+		        double i = (getWidth() - 46.8) / 2;
+		        double j = (getHeight() - 46.8) / 2;
+		       
+		        GOval midcircle = new GOval(i, j, 46.8, 46.8);
+		       
+		        midcircle.setFilled(true);
+		        midcircle.setColor(Color.white);
+		        add(midcircle);
+		       
+		        double x = (getWidth() - 21.6) / 2;
+		        double y = (getHeight() - 21.6) / 2;
+		       
+		        GOval innercircle = new GOval(x, y, 21.6, 21.6);
+		        innercircle.setFilled(true);
+		        innercircle.setColor(Color.RED);
+		       
+		        add(innercircle);
+		       
+		    }
+		
+  
 	 
 	 
 	 
 		/* You fill this in. */
 	}
-}
+
