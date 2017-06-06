@@ -15,14 +15,13 @@ public class Target extends GraphicsProgram {
 		GOval oval1 = new GOval(300, 137, 72, 72);
 		oval1.setFilled(true);
 		oval1.setFillColor(Color.RED);
-		
 		add(oval1);
 		
-		/*GOval oval1 = new GOval(300, 137, 50, 50);
-		oval1.setFilled(true);
-		oval1.setFillColor(Color.RED);
 		
-		add(oval1);
-		*/
+		GOval oval2 = new GOval(350, 150, 50, 50);
+		//oval2.setFilled(true);
+		//oval2.setFillColor(Color.RED);
+		add(oval2);
+		
 	}
 }
