@@ -17,5 +17,12 @@ public class Target extends GraphicsProgram {
 		oval1.setFillColor(Color.RED);
 		
 		add(oval1);
+		
+		/*GOval oval1 = new GOval(300, 137, 50, 50);
+		oval1.setFilled(true);
+		oval1.setFillColor(Color.RED);
+		
+		add(oval1);
+		*/
 	}
 }
