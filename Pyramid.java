@@ -1,4 +1,5 @@
 /*
+
  * File: Pyramid.java
  * Name: Enoch Mbaebie
  * Sweskills Tech Talent Academy
@@ -17,13 +18,13 @@ import java.awt.*;
 public class Pyramid extends GraphicsProgram {
 
 /** Width of each brick in pixels */
-	private static final int BRICK_WIDTH = 40;
+	public static final int BRICK_WIDTH = 40;
 
 /** Width of each brick in pixels */
-	private static final int BRICK_HEIGHT = 14;
+	public static final int BRICK_HEIGHT = 14;
 
 /** Number of bricks in the base of the pyramid */
-	private static final int BRICKS_IN_BASE = 16;
+	public static final int BRICKS_IN_BASE = 16;
 	
 	public void run() {
 		/* You fill this in. */
