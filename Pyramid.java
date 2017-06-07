@@ -31,7 +31,7 @@ public class Pyramid extends GraphicsProgram {
 	 public void run() {
 		 
 		 
-		 for (int i = BRICKS_IN_BASE; i <= BRICKS_IN_BASE; --i)	{
+		 for (int i = BRICKS_IN_BASE; i >= BRICKS_IN_BASE; --i)	{
 			 dBricks();
 		 }
 	 }
