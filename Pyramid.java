@@ -32,7 +32,7 @@ public class Pyramid extends GraphicsProgram {
 		for (int k = 0; k < BRICKS_IN_BASE; k++){
 			drawRow(x, y, (BRICKS_IN_BASE - k));
 			y -= BRICK_HEIGHT;
-			x += BRICK_WIDTH / 2;			
+			x += BRICK_WIDTH;			
 		}
 	}
 		private void drawRow(double x, double y, int bricks){
