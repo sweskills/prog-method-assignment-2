@@ -25,6 +25,9 @@ public class Pyramid extends GraphicsProgram {
 /** Number of bricks in the base of the pyramid */
 	 private static final int BRICKS_IN_BASE = 14;
 	 
+	 //number of space between adjacent bricks
+	 private static final int BRICK_SPACE = 4;
+	 
 	 public void run() {
 		 int initBrick = 30;
 			int initPlacement = (getWidth() - BRICK_WIDTH) / 2;
@@ -41,7 +44,7 @@ public class Pyramid extends GraphicsProgram {
 				int initX = i;
 				int x = (initX + initPlacement) - 15;
 				int y = 12;
-				GRect brick = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
+				GRect brick = new GRect(x, y, BRICK_WIDTH / BRICK_SPACE, BRICK_HEIGHT / BRICK_SPACE);
 				add(brick);
 			}
 			for (int i = 0; i < 90; i += 30)
