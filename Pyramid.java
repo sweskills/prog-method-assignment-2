@@ -29,29 +29,28 @@ public class Pyramid extends GraphicsProgram {
 		
 	public void run() {
 	
-		buildPyramid();
+		int w = getWidth() / 2; 
+		int x = 0;
+		int j = BRICKS_IN_BASE; 
+		int y = getHeight(); 
+
+
+			for (int k = 1; k <= 14; k++) { 
+
+		for (int i = 0; i < j; i++) {	
+
+		GRect brick = new GRect(w + x + (i * BRICK_WIDTH), y, BRICK_WIDTH, BRICK_HEIGHT);
+
+					add (brick);
+		}
+		y = getHeight() - (BRICK_HEIGHT * k);
+		x = k * (BRICK_WIDTH / 2);
+		j--;
+
+				}
 		
 		}
-	
-	private void buildPyramid() {
-		int totalBrick = BRICKS_IN_BASE;
-		int numRow = BRICKS_IN_BASE;
-		
-		double y = getHeight() - BRICK_HEIGHT;
-		
-		while (numRow > 0) {
-			double x = (getWidth())/2 - (BRICK_WIDTH*totalBrick)/2;
 			
-			for (int i=totalBrick; i<0; i--) {
-				GRect myBrick = new GRect (x, y, BRICK_WIDTH, BRICK_HEIGHT);
-				add(myBrick);
-						x += BRICK_WIDTH;
-			}
-			totalBrick--;
-			numRow--;
-			y-=BRICK_HEIGHT;
-		}
-		
 	}
 	
 }
