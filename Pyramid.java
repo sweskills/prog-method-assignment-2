@@ -43,7 +43,7 @@ public class Pyramid extends GraphicsProgram {
 		private void drawBrick(double x, double y){
 			GRect rect = new GRect (x,y, BRICK_WIDTH, BRICK_HEIGHT);
 			rect.setFilled(true);
-			rect.setColor (Color.RED);
+			rect.setColor (Color.BLUE);
 			add(rect);
 		}
 }
