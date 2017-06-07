@@ -37,7 +37,7 @@ public class Pyramid extends GraphicsProgram {
 	 }
 	 private void dBricks(){
 		 GRect dBricks =  new GRect ((getWidth()/2), (getHeight()/2), BRICK_WIDTH, BRICK_HEIGHT);
-		 dBricks.setFilled(true);
+		 dBricks.setFilled(false);
 		 add (dBricks);
 	 }
 }
