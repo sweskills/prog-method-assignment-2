@@ -37,11 +37,12 @@ public class Pyramid extends GraphicsProgram {
 	}
 		private void drawRow(double x, double y, int bricks){
 			for (int i = 0; i < bricks; i++) {
-				drawBrick((x ), y);
+				drawBrick((x + i * BRICK_WIDTH), y);
 			}
 		}
 		private void drawBrick(double x, double y){
 			GRect rect = new GRect (x,y, BRICK_WIDTH, BRICK_HEIGHT);
+			rect.setFilled(true);
 			rect.setColor (Color.BLACK);
 			add(rect);
 		}
