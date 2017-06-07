@@ -40,6 +40,8 @@ public class Target extends GraphicsProgram {
 		spor.setFillColor(Color.WHITE);
 		spor.setFilled(true);
 		spor.isVisible();
+		double I = (getWidth() - spor.getWidth()) /2;
+		double J = (getHeight() - spor.getHeight()) /2;
 		add (spor);
 		
 		//
@@ -47,6 +49,8 @@ public class Target extends GraphicsProgram {
 		spea.setColor(Color.RED);
 		spea.setFillColor(Color.RED);
 		spea.setFilled(true);
+		double A = (getWidth() - spea.getWidth()) /2;
+		double B = (getHeight() - spea.getHeight()) /2;
 		add (spea);
 	}
 }
