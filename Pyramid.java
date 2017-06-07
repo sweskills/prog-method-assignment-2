@@ -26,14 +26,14 @@ public class Pyramid extends GraphicsProgram {
 	 private static final int BRICKS_IN_BASE = 14;
 	 
 	 //number of space between adjacent bricks
-	 private static final int BRICK_SPACE = 4;
+	 
 	 
 	 public void run() {
 		 
 		 
 		 
 			 dBricks();
-			 for (int i = BRICKS_IN_BASE; i >= BRICKS_IN_BASE; )	{
+			 for (int i = 0; i <= BRICKS_IN_BASE; i++ )	{
 				 return;
 		 }
 	 }
