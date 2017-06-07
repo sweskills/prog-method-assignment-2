@@ -29,12 +29,10 @@ public class Pyramid extends GraphicsProgram {
 	 
 	 
 	 public void run() {
-		 
-		 
-		 
 			 
 			 for (int i = 0; i <= BRICKS_IN_BASE; i++ )	{
 				 dBricks();
+				 
 		 }
 	 }
 	 private void dBricks(){
