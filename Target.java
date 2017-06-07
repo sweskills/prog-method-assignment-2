@@ -25,15 +25,17 @@ public class Target extends GraphicsProgram {
 	public void run() {
 		
 		///
-		GOval spar = new GOval(centerX, centerY, 120, 120);
+		GOval spar = new GOval( 120, 120);
 		spar.setColor(Color.RED);
 		spar.setFillColor(Color.RED);
 		spar.setFilled(true);
 		spar.sendToBack();
+		double X = (getWidth() - spar.getWidth()) /2;
+		double Y = (getHeight() - spar.getHeight()) /2;
 		add (spar);
 		
 		// 
-		GOval spor = new GOval(centerX, centerY, 80, 80);
+		GOval spor = new GOval( 80, 80);
 		spor.setColor(Color.WHITE);
 		spor.setFillColor(Color.WHITE);
 		spor.setFilled(true);
@@ -41,7 +43,7 @@ public class Target extends GraphicsProgram {
 		add (spor);
 		
 		//
-		GOval spea = new GOval(centerX, centerY, 40, 40);
+		GOval spea = new GOval(40, 40);
 		spea.setColor(Color.RED);
 		spea.setFillColor(Color.RED);
 		spea.setFilled(true);
