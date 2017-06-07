@@ -30,14 +30,16 @@ public class Pyramid extends GraphicsProgram {
 	 
 	 public void run() {
 			 
-			 for (int i = 0; i <= BRICKS_IN_BASE; i++ )	{
+			 while (true){
 				 dBricks();
 				 
 		 }
 	 }
 	 private void dBricks(){
+		 for (int i = 0; i <= BRICKS_IN_BASE; i++ )	{
 		 GRect dBricks =  new GRect ((getWidth()/2), (getHeight()/2), BRICK_WIDTH, BRICK_HEIGHT);
 		 dBricks.setFilled(false);
 		 add (dBricks);
+		 }
 	 }
 }
