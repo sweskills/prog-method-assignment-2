@@ -17,17 +17,17 @@ import java.awt.*;
 public class Pyramid extends GraphicsProgram {
 
 /** Width of each brick in pixels */
-	private static final int BRICK_WIDTH = 30;
+	private static final int BRICK_WIDTH = 40;
 
 /** Width of each brick in pixels */
-	private static final int BRICK_HEIGHT = 12;
+	private static final int BRICK_HEIGHT = 14;
 
 /** Number of bricks in the base of the pyramid */
-	private static final int BRICKS_IN_BASE = 14;
+	private static final int BRICKS_IN_BASE = 16;
 	
 	public void run() {
 		/* You fill this in. */
-		double x = (getWidth() - BRICKS_IN_BASE * BRICK_WIDTH) / 2;
+		double x = (getWidth() - (BRICKS_IN_BASE * BRICK_WIDTH)) / 2;
 		double y = getHeight()  - BRICK_HEIGHT;
 		for (int row = 0; row < BRICKS_IN_BASE; row++);	{
 			int row = 0;
@@ -37,8 +37,8 @@ public class Pyramid extends GraphicsProgram {
 		}
 	}
 		private void drawRow(double x, double y, int bricks){
-		for (int i = 0; i < bricks; i++) {
-			drawBrick((x + i * BRICK_WIDTH), y);
+			for (int i = 0; i < bricks; i++) {
+				drawBrick((x + i * BRICK_WIDTH), y);
 			}
 		}
 		private void drawBrick(double x, double y){
