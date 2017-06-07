@@ -29,9 +29,8 @@ public class Pyramid extends GraphicsProgram {
 		/* You fill this in. */
 		double x = (getWidth() - (BRICKS_IN_BASE * BRICK_WIDTH)) / 2;
 		double y = getHeight()  - BRICK_HEIGHT;
-		for (int row = 0; row < BRICKS_IN_BASE; row++);	{
-			int row = 0;
-			drawRow(x, y, (BRICKS_IN_BASE - row));
+		for (int k = 0; k < BRICKS_IN_BASE; k++){
+			drawRow(x, y, (BRICKS_IN_BASE - k));
 			y -= BRICK_HEIGHT;
 			x += BRICK_WIDTH / 2;			
 		}
