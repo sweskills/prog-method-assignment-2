@@ -32,9 +32,9 @@ public class Pyramid extends GraphicsProgram {
 		 
 		 
 		 
-			 dBricks();
-			 for (int i = 0; i <= BRICKS_IN_BASE; i++ )	{
-				 return;
+			 
+			 for (int i = 0; i <= BRICKS_IN_BASE; i-- )	{
+				 dBricks();
 		 }
 	 }
 	 private void dBricks(){
