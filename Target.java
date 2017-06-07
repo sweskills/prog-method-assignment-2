@@ -22,7 +22,7 @@ public class Target extends GraphicsProgram {
 	double centerY = getHeight()/2;
 			
 	
-	public void run() {
+	public void run() {	
 		
 		///
 		GOval spar = new GOval(centerX - outerRad, centerY - outerRad, 2 * outerRad, 2 * outerRad);
@@ -30,6 +30,7 @@ public class Target extends GraphicsProgram {
 		spar.setFillColor(Color.RED);
 		spar.setFilled(true);
 		spar.sendToBack();
+		spar.setLocation(centerX, centerY);
 		add (spar);
 		
 		// 
@@ -38,6 +39,7 @@ public class Target extends GraphicsProgram {
 		spor.setFillColor(Color.WHITE);
 		spor.setFilled(true);
 		spor.isVisible();
+		spor.setLocation(centerX, centerY);
 		add (spor);
 		
 		//
@@ -45,6 +47,7 @@ public class Target extends GraphicsProgram {
 		spea.setColor(Color.RED);
 		spea.setFillColor(Color.RED);
 		spea.setFilled(true);
+		spea.setLocation(centerX, centerY);
 		add (spea);
 	}
 }
