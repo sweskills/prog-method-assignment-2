@@ -39,6 +39,7 @@ public class Target extends GraphicsProgram {
 		spor.setFillColor(Color.WHITE);
 		spor.setFilled(true);
 		spor.isVisible();
+		spor.setLocation(centerX, centerY);
 		add (spor);
 		
 		//
@@ -46,6 +47,7 @@ public class Target extends GraphicsProgram {
 		spea.setColor(Color.RED);
 		spea.setFillColor(Color.RED);
 		spea.setFilled(true);
+		spea.setLocation(centerX, centerY);
 		add (spea);
 	}
 }
