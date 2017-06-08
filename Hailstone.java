@@ -14,7 +14,7 @@ public class Hailstone extends ConsoleProgram {
 		
 		int n;
 		int i;
-		println("Enter a number number "+n);
+		println("Enter a number number ");
 		
 		n =readInt(" Number ");
 		while (n>1){
