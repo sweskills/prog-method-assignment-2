@@ -7,6 +7,7 @@
  */
 
 import acm.program.*;
+import java.util.*;
 
 public class FindRange extends ConsoleProgram {
 	private static final int SENTINEL = 0;
