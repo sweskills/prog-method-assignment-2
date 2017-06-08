@@ -7,10 +7,34 @@
  */
 
 import acm.program.*;
+import java.util.*;
 
 public class FindRange extends ConsoleProgram {
+	private static final int SENTINEL = 0;
 	public void run() {
-		/* You fill this in */
+		println("the smalest and the largest values");
+					    	int max=0;
+					    	int min=0;
+					    	int val;
+							
+								while(true ){
+								val =readInt (" ?");
+								
+								 if (val==SENTINEL){
+									 break;
+								 }
+								 if (val>max){
+									max=val;
+								}
+									else if(val<min){
+											min=val;
+										}
+									}
+								
+								println("This is the maximum number"+max );
+									
+								println("This is the minun number"+min );
+									}
 	}
-}
+	
 
