@@ -34,13 +34,5 @@ public class Hailstone extends ConsoleProgram {
 			}
 		}
 	}
-
-		
-		
-		
-		
-		
-		
-	}
 }
 
