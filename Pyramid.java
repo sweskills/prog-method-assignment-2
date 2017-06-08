@@ -38,7 +38,7 @@ public class Pyramid extends GraphicsProgram {
 		double yMidPoint = getHeight()/2;
 		
 		double xCenterPoint = (xMidPoint - (BRICK_WIDTH/2));
-		double yCenterPoint = (yMidPoint - (BRICK_HEIGHT * BRICKS_IN_BASE)/2);
+		double yCenterPoint = (yMidPoint - (BRICKS_IN_BASE *(BRICK_HEIGHT)/2));
 		
 		int xIncrementor = 0;
 		
