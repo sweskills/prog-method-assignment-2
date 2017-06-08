@@ -29,6 +29,7 @@ public class Pyramid extends GraphicsProgram {
 		
 	public void run() {
 	
+		placeBricks();
 		
 		}
 	
