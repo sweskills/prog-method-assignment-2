@@ -41,6 +41,8 @@ public class Pyramid extends GraphicsProgram {
 				
 				add(brick, x, y);
 				
+				brick.setFilled(true);
+				
 				x += BRICK_WIDTH;
 			}
 			
