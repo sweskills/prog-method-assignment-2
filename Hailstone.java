@@ -14,28 +14,28 @@ public class Hailstone extends ConsoleProgram {
 	public void run() {
 		
 		/*prompts the user to enter a number*/
-		int x = readInt("Enter a number: ");
+		int n = readInt("Enter a number: ");
 		
 		/*stores the number of steps it takes to reach 1*/
 		int counter = 0;
 		
-		while (x != 1) {
+		while (n != 1) {
 			
-			/*checks if x is divisible by 2 without remainder*/
-			if (x % 2 == 0) {
+			/*checks if n is divisible by 2 without remainder*/
+			if (n % 2 == 0) {
 				
-				println (x + " is even, so I take half: " + x/2);
+				println (n + " is even, so I take half: " + n/2);
 				
-				x = x / 2; 
+				n = n / 2; 
 				
 				counter++; /*increments the steps*/
 				
 			} else {
 				
 				/*otherwise this*/
-				println (x + " is odd, so I make 3x + l: " + (3 * x + 1));
+				println (n + " is odd, so I make 3n + l: " + (3 * n + 1));
 				
-				x = 3 * x + 1;
+				n = 3 * n + 1;
 				
 				counter++; 
 				
