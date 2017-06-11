@@ -28,12 +28,12 @@ public class Hailstone extends ConsoleProgram {
 				
 				m = m / 2; 
 				
-				counter++; /*increments the steps*/
+				counter++; /*counts the steps*/
 				
 			} else {
 				
 				/*otherwise this*/
-				println (m + " is odd, so I make 3n + l: " + (3 * m + 1));
+				println (m + " is odd, so I make 3m + l: " + (3 * m + 1));
 				
 				m = 3 * m + 1;
 				
