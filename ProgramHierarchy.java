@@ -145,7 +145,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 		int y = getHeight() / 2 - BOX_HEIGHT;
 		
 		//final coordinates
-		int dx = (int) (getWidth() / 2 - BOX_WIDTH * 1.0);
+		int dx = (int) (getWidth() / 2 - BOX_WIDTH * 1.5);
 		
 		int dy = getHeight() / 2;
 		
@@ -163,7 +163,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 		int y = getHeight() / 2 - BOX_HEIGHT;
 		
 		//final coordinates
-		int dx = (int) (getWidth() / 2 + BOX_WIDTH * 1.0);
+		int dx = (int) (getWidth() / 2 + BOX_WIDTH * 1.5);
 		
 		int dy = getHeight() / 2;
 		
