@@ -17,7 +17,7 @@ public class Hailstone extends ConsoleProgram {
 		int x = readInt("Enter a number: ");
 		
 		/*stores the number of steps it takes to reach 1*/
-		int z = 0;
+		int counter = 0;
 		
 		while (x != 1) {
 			
@@ -28,7 +28,7 @@ public class Hailstone extends ConsoleProgram {
 				
 				x = x / 2; 
 				
-				z++; /*increments the steps*/
+				counter++; /*increments the steps*/
 				
 			} else {
 				
@@ -37,13 +37,13 @@ public class Hailstone extends ConsoleProgram {
 				
 				x = 3 * x + 1;
 				
-				z++; 
+				counter++; 
 				
 			}
 		}
 		
 		/*prints this at the end of the program*/
-		println("The process took " + z + " steps to reach 1");
+		println("The process took " + counter + " steps to reach 1");
 	}
 }
 
