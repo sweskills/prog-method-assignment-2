@@ -12,7 +12,7 @@ import java.awt.*;
 
 public class ProgramHierarchy extends GraphicsProgram {	
 	
-	/**constants */
+	/**constants*/
 	public static final int BOX_WIDTH = 120;
 	
 	public static final int BOX_HEIGHT = 60;
