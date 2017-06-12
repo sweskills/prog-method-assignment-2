@@ -22,14 +22,14 @@ public class ProgramHierarchy extends GraphicsProgram {
 		drawLines();	
 	}
 	
-	private void drawBoxes(){
+	private void drawBoxes(){      //draw the boxes
 		drawProgram();
 		drawGraphics();
 		drawConsole();
 		drawDialog();
 	}
 
-	private void drawLines(){
+	private void drawLines(){      //draw the lines
 		drawConsoleLine();
 		drawDialogLine();
 		drawGraphicsLine();
