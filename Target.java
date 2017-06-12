@@ -34,7 +34,7 @@ public class Target extends GraphicsProgram {
 	public void run() {
 		
 		//
-		outerCircle = new GOval(centerX - outerRad, centerY - outerRad, 2 * outerRad, 2 * outerRad);
+		outerCircle = new GOval((centerX - InchesToRadius )* outerRad, (centerY - InchesToRadius)*outerRad, 2 * outerRad, 2 * outerRad);
 		outerCircle.setColor(Color.RED);
 		outerCircle.setFillColor(Color.RED);
 		outerCircle.setFilled(true);
