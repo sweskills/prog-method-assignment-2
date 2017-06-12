@@ -18,8 +18,8 @@ public class Target extends GraphicsProgram {
 	double outerRad = 1.0 * InchesToRadius;
 	double middleRad = 0.65 * InchesToRadius;
 	double innerRad = 0.3 * InchesToRadius;
-	double centerX = getWidth()/2;
-	double centerY = getHeight()/2;
+	double centerX = getWidth();
+	double centerY = getHeight();
 	
 	//
 	private GOval outerCircle;
@@ -34,7 +34,6 @@ public class Target extends GraphicsProgram {
 	public void run() {
 		
 		//
-		
 		outerCircle = new GOval(centerX - outerRad, centerY - outerRad, 2 * outerRad, 2 * outerRad);
 		outerCircle.setColor(Color.RED);
 		outerCircle.setFillColor(Color.RED);
