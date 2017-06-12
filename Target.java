@@ -20,31 +20,41 @@ public class Target extends GraphicsProgram {
 	double innerRad = 0.3 * InchesToRadius;
 	double centerX = getWidth()/2;
 	double centerY = getHeight()/2;
+	
+	//
+	private GOval outerCircle;
+	
+	//
+	private GOval middleCircle;
+	
+	//
+	private GOval innerCircle;
 			
 	
 	public void run() {
 		
-		///
-		GOval spar = new GOval(centerX - outerRad, centerY - outerRad, 2 * outerRad, 2 * outerRad);
-		spar.setColor(Color.RED);
-		spar.setFillColor(Color.RED);
-		spar.setFilled(true);
-		spar.sendToBack();
-		add (spar);
+		//
+		
+		outerCircle = new GOval(centerX - outerRad, centerY - outerRad, 2 * outerRad, 2 * outerRad);
+		outerCircle.setColor(Color.RED);
+		outerCircle.setFillColor(Color.RED);
+		outerCircle.setFilled(true);
+		outerCircle.sendToBack();
+		add (outerCircle);
 		
 		// 
-		GOval spor = new GOval(centerX - middleRad, centerY - middleRad, 2 * middleRad, 2 * middleRad);
-		spor.setColor(Color.WHITE);
-		spor.setFillColor(Color.WHITE);
-		spor.setFilled(true);
-		spor.isVisible();
-		add (spor);
+		middleCircle = new GOval(centerX - middleRad, centerY - middleRad, 2 * middleRad, 2 * middleRad);
+		middleCircle.setColor(Color.WHITE);
+		middleCircle.setFillColor(Color.WHITE);
+		middleCircle.setFilled(true);
+		middleCircle.isVisible();
+		add (middleCircle);
 		
 		//
-		GOval spea = new GOval(centerX - innerRad, centerY - innerRad, 2 * innerRad, 2 * innerRad);
-		spea.setColor(Color.RED);
-		spea.setFillColor(Color.RED);
-		spea.setFilled(true);
-		add (spea);
+		innerCircle = new GOval(centerX - innerRad, centerY - innerRad, 2 * innerRad, 2 * innerRad);
+		innerCircle.setColor(Color.RED);
+		innerCircle.setFillColor(Color.RED);
+		innerCircle.setFilled(true);
+		add (innerCircle);
 	}
 }
