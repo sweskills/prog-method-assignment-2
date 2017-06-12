@@ -14,6 +14,13 @@ public class Target extends GraphicsProgram {
 	
 	/*runs the program*/
 	public void run() {
+		//add the circles to the canvas
+		drawOuterCircle();
+		drawMiddleCircle();
+		drawInnerCircle();
+	
+	
+	}
 		
 		/*conversion from inches to pixels*/
 		double inchToPixel = 72;
@@ -29,9 +36,11 @@ public class Target extends GraphicsProgram {
 		
 		double centerY = getHeight()/2;
 		
-		/*draw the circles, add them to canvas and set their respective colors*/
+		/*draw the circles and set their respective colors*/
 		
 		/*outerCircle*/
+		private void drawOuterCircle() {
+		
 		GOval outerCircle = new GOval (centerX - outerRad, centerY - outerRad, 2 * outerRad, 2 * outerRad);
 		
 		outerCircle.setFilled(true);
@@ -40,7 +49,11 @@ public class Target extends GraphicsProgram {
 		
 		add(outerCircle);
 		
+		}
+		
 		/*middleCircle*/
+		private void drawMiddleCircle() {
+		
 		GOval middleCircle = new GOval (centerX - middleRad, centerY - middleRad, 2 * middleRad, 2 * middleRad);
 		
 		middleCircle.setFilled(true);
@@ -49,7 +62,11 @@ public class Target extends GraphicsProgram {
 		
 		add(middleCircle);
 		
+		}
+		
 		/*innerCircle*/
+		private void drawInnerCircle() {
+		
 		GOval innerCircle = new GOval (centerX - innerRad, centerY - innerRad, 2 * innerRad, 2 * innerRad);
 		
 		innerCircle.setFilled(true);
@@ -58,5 +75,5 @@ public class Target extends GraphicsProgram {
 		
 		add(innerCircle);
 		
-	}
+		}
 }
