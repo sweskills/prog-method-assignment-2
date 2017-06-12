@@ -18,8 +18,8 @@ public class Target extends GraphicsProgram {
 	double outerRad = 1.0 * InchesToRadius;
 	double middleRad = 0.65 * InchesToRadius;
 	double innerRad = 0.3 * InchesToRadius;
-	double x = getWidth() /2;
-	double y = getHeight() /2;
+	double x = getWidth();
+	double y = getHeight();
 	
 	//
 	private GOval outerCircle;
