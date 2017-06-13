@@ -42,7 +42,7 @@ public class Pyramid extends GraphicsProgram {
 				
 				brick = new GRect (x, y, BRICK_WIDTH, BRICK_HEIGHT);
 				
-				add(brick); //adds the bricks upward in descending order
+				add(brick); //adds the bricks upward in decreasing order of magnitude
 				
 				x += BRICK_WIDTH;
 			}
