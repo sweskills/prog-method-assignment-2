@@ -21,8 +21,7 @@ public class Pyramid extends GraphicsProgram {
   public void run() {
         putAllBricks();
     }
-    private void putAllBricks()
-    {
+    private void putAllBricks(){
         for( int row = 0; row < brickInBase; row++ ){
         
             int bricksInRow = brickInBase - row;
