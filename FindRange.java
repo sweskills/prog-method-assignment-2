@@ -11,29 +11,31 @@ import acm.program.*;
 public class FindRange extends ConsoleProgram {
 	public void run() {
 
-		println("Please enter a list of int values and end with 0 (the sentinel) ");
-		int n1 =  readInt("First value: ");
-		
-		if(n1==0){
-			println("No you cant enter s3ntinel first");
-		}
-		
-		//break;
-	
-		println("Enter more numbers");
-		int n = readInt("? ");
-		while (n !=0){
-			
-		}
-		if (n == 0)
-			println("This is the S3ntinel");
-		
-		while(n !=0){
-			 n = readInt("? ");
-		} 
-		}
-}
-		
-		
-
-		
+		 public int SENTINEL = 0;
+	        
+	        System.out.println("The program finds the largest and smallest values");
+	        
+	        int firstNumber = readInt("Enter first number");
+	        int smallest = firstNumber;
+	        int largest = firstNumber;
+	        
+	        if (firstNumber == SENTINEL)
+	            System.out.print("You did not enter a valid value");
+	        else
+	            System.out.println("you can now enter others");
+	        
+	        
+	        while(int otherNumber > SENTINEL){
+	        otherNumber = readInt("Enter other integers");
+	        
+	        if(otherNumber == null){
+	           
+	            System.out.println(first+ "is the largest as well as th smallst");
+	        }
+	        else{
+	           largestNumber = otherNumber;
+	        if(lagestNumber > otherNumber)
+	            
+	        }
+	        }
+	}
