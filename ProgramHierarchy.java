@@ -12,7 +12,20 @@ import java.awt.*;
 
 public class ProgramHierarchy extends GraphicsProgram {	
 	public void run() {
-		/* You fill this in. */
+
+		int SENTINEL;
+		int n;
+		SENTINEL = readInt("Enter Sentinel Value - ");
+		
+		for (int i=0; i<SENTINEL; i++) {
+			n = readInt("?");
+			println(n);
+			if (n == SENTINEL){
+				break;
+				}
+			println("End of Program");
+		}
+		
 	}
 }
 
