@@ -10,6 +10,14 @@ import acm.program.*;
 
 public class PythagoreanTheorem extends ConsoleProgram {
 	public void run() {
-		/* You fill this in */
+		
+		double a = readDouble ("enter the value of a");
+		double b = readDouble ("enter the value of b");
+	
+		double c = Math.sqrt((a*a)+(b*b));
+		print ("c:"+ c);
+		
+		
+				
 	}
 }
